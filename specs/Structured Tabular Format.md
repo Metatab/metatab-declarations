@@ -13,11 +13,8 @@ Simple structured data formats like YAML and JSON have become a common way of st
 To addresses these issues, we propose a new format which allows storing structured objects in a tabular format. Compared to JSON and YAML, this format's advantages include: 
 
 * Easy to edit using a tool most users already have, a spreadsheet application. 
-
 * Allows for storing structured metadata in the same spreadsheet file as data. 
-
 * Is easier to edit and verify for data that is organized as a sequence of structures, with each structure having the same properties. 
-
 * Non-technical users can read the data immediately, without training or additional tools.  
 
 The Structured Tabular Format is not a replacement for other formats, and it cannot represent arbitrary data structures as easily as other formats can. Instead, it should be used primarily where it is important to provide metadata for tabular datasets, the data structure is predominantly tabular, or users have a strong preference for using spreadsheet applications.
@@ -69,10 +66,9 @@ Each row of the file holds data that will create one or more records. Records ha
 Each column in the grid has a defined purpose:
 
 * The first column holds a Term, which is a simple or compound name that determines what type of record will be created for the row and what the parent record of the new record will be. 
-
 * The second column holds a Term Value, the record’s scalar value.
-
 * The third and subsequent columns may contain Term Arguments. 
+
 
 Terms are case-insensitive.
 
@@ -139,9 +135,7 @@ Rows are fed to the parser in the order they appear in the file, from top to bot
 For each row, the parser may:
 
 * Create a record for a term.
-
 * Alter the term parameter map
-
 * Include another file, and begin generating rows from it
 
 ## Initialization
@@ -149,9 +143,7 @@ For each row, the parser may:
 The parsing process begins with an initial STF file, with a set of variables initialized as:
 
 1. The **parameter map** is empty
-
 2. The **last record map** is empty
-
 3. The **last record** is the Root record
 
 ## Main Loop
@@ -159,9 +151,7 @@ The parsing process begins with an initial STF file, with a set of variables ini
 For each row in the STF file:
 
 1. Assign parts of each row to variables
-
 2. Handle special, non-generating terms
-
 3. Handle record generating terms
 
 ### Assign Components To Variables
@@ -169,23 +159,18 @@ For each row in the STF file:
 Assign components of the parsed row from the input row to variables
 
 1. The **term** is the first column of the row.
-
 2. The **value** is the second column of the row
-
 3. The **term arguments** are the third through remaining columns of the row
 
 If the **term** includes a ‘.’:
 
 1. If there is a term before the ‘.’, assign it to the **parent term**
-
 2. If there is not a term before the ‘.’, the **parent term** is the term of the** last record**.
-
 3. The term after the ‘.’ is the **record term**
 
 If the term does not include a ‘.’, 
 
 1. The **record term** is set to the **term**. 
-
 2. The **parent term** is ‘Root’
 
 ### Handle special terms
@@ -213,7 +198,6 @@ When a future term creates a record, and the row has term arguments, the names i
 In the first row of this table, the Term term causes the parameter map to be updated to [‘Arg1’,’Arg2’]. In the second row, the term arguments are [‘value1’,’value2’]. The parameter map and the term arguments are joined element-wise to result in the creation of two children of the Record record with these terms and term values
 
 * Arg1: value1
-
 * Arg2: value2
 
 When an Include term is encountered, the term value is dereferenced as a new STF file to parse. The file is parsed completely, adding records to the record tree -- included files are parsed depth first. After the last row of the file is parsed, parsing resumes after the Include term in the parent file.
@@ -221,12 +205,9 @@ When an Include term is encountered, the term value is dereferenced as a new STF
 Parsing steps:
 
 1. If the **record term** is Include, begin the parsing process on the file referenced by the value. 
-
-    1. When parsing a new file, the** parameter map, ** l**ast record map** and **last record **are applied only to the file in which they are set. 
-
+    1. When parsing a new file, the** parameter map, **last record map** and **last record **are applied only to the file in which they are set. 
     2. It is the responsibility of the parsing application to determine how to resolve the value of an Include term to a file.
-
-2. If the **record term** is Term or Section, set the **parameter map** to the **term arguments. **Parameter maps apply only to the file in which they are set.
+2. If the **record term** is Term or Section, set the **parameter map** to the **term** arguments. Parameter maps apply only to the file in which they are set.
 
 In parsing, the Declare term is is a synonym for Includes, and has the same effect. 
 
@@ -241,9 +222,7 @@ Term values that include a ‘.’ will cause the record to be created as a chil
 Parsing steps for a record generating term
 
 1. Create a new record for the **record term**, assign it as the **last record **and add it to the** last record map.**
-
 2. Add the new record as a child to the last record created with the same term as the **parent term**, as determined from the **last record map.**
-
 3. If there are **term arguments**, create a new record for each of the arguments, using the **parameter map** for term names and the **term arguments** for term values. The new records are added as children of the record created for the **record term**. Child records created from term arguments are not assigned to the last record or last record map. 
 
 # Special Terms
@@ -251,27 +230,16 @@ Parsing steps for a record generating term
 There is a set of built-in terms that have special meaning. These terms are: 
 
 * Section
-
 * Include
-
 * Declare
-
 * DeclareTerm
-
     * TermValueName
-
     * ChildPropertyType
-
     * Section
-
     * Synonym
-
     * ValueSet
-
 * DeclareSection
-
 * DeclareValueSet
-
     * DisplayValue
 
 The Section term introduces a new section. TDB. Resets the parameter map and clears the last parent. 
@@ -289,13 +257,9 @@ All of the declaration terms have pre-defined  child terms, which are always spe
 The DeclareTerm term creates an entry for pre-defined term and also specifies important modifiers for the declared term with term children. The child terms are: 
 
 * TermValueName. Sets the name f the key for values when the document is converted to JSON. If it is not set, the key is ‘@value’. 
-
 * ChildPropertyType. Forces the value of a key to be a specific data type, such as a list, scalar or dictionary. 
-
 * Section. What section the term is value for. 
-
 * Synonym. During the parsing process, terms with replaces the term name with a different name.  
-
 * ValueSet. Names a value set which defines permissible values for the term. 
 
 To allow simple STF file to more closely approximate specific object hierarchies, STF defines two translation term structures. 
@@ -322,13 +286,9 @@ The TermValueName term sets the name of the property in an object, when records 
 The ChildPropertyType forces a datatype for children of a record when converting a record hierarchy to JSON or YAML.  The term value is a compound term with the names of the parent and child record terms, and the first term argument is the datatype, which must be one of:
 
 * scalar
-
 * list
-
 * nonlist
-
 * dict
-
 * any
 
 Consider the following input:
@@ -395,13 +355,9 @@ The value "child" entry in the dictionary will be forced to be a scalar, with la
 The effects of all of the data types are:
 
 * scalar: force the property value to be a scalar, with later values overwriting earlier ones
-
 * list: force the property value to be a list, even if there is only one child record
-
 * dict: force the value to be a sub-dictionary, even if the child record has no children, with later values overwriting earlier ones
-
 * nonlist: force the property value to be either a scalar or a dict, depending on whether the record has children, but regardless of whether there is one or more than one record of the same term. 
-
 * any: Clear the forced type for this term. 
 
 ### DeclareSection
