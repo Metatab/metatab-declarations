@@ -464,9 +464,8 @@ Row 10 creates a new Description child for the record created in Row 9.
 
 This example table, if parsed to an object tree and jumped as JSON, with default values being given dictionary keys of @value, would be equivalent to:
 
-<table>
-  <tr>
-    <td>{
+```json
+{
     "description": "Percent of ... percent who voted in statewide elections.", 
     "title": "Registered Voters, By County", 
     "documentation": {
@@ -481,8 +480,5 @@ This example table, if parsed to an object tree and jumped as JSON, with default
         "title": "Healthy Communities Data and Indicators Project (HCI)"
     }
 }
-</td>
-  </tr>
-</table>
-
+```
 
