@@ -351,7 +351,6 @@ The value "child" entry in the dictionary will be forced to be a scalar, with la
   </tr>
 </table>
 
-
 The effects of all of the data types are:
 
 * scalar: force the property value to be a scalar, with later values overwriting earlier ones
