@@ -1,0 +1,712 @@
+{
+    "sections": {
+        "schemas": {
+            "args": [
+                "DataType",
+                "Description"
+            ],
+            "terms": [
+                "Root.Schemas",
+                "Schemas.PrimaryKey",
+                "Schemas.ForeignKey",
+                "Schemas.Fields",
+                "Fields.Name",
+                "Fields.Title",
+                "Fields.Description",
+                "Fields.DataType",
+                "Fields.Format",
+                "Fields.MissingValue",
+                "Fields.Constraint",
+                "Constraints.Required",
+                "Constraints.MinLength",
+                "Constraints.MaxLength",
+                "Constraints.Unique",
+                "Constraints.Pattern",
+                "Constraints.Minimum",
+                "Constraints.Maximum",
+                "Constraints.Enum",
+                "Root.Schema",
+                "Schema.PrimaryKey",
+                "Schema.ForeignKey",
+                "Schema.Field",
+                "Field",
+                "Field.Name",
+                "Field.Title",
+                "Field.Description",
+                "Field.DataType",
+                "Field.Format",
+                "Field.MissingValue",
+                "Field.Constraint",
+                "Constraint.Required",
+                "Constraint.MinLength",
+                "Constraint.MaxLength",
+                "Constraint.Unique",
+                "Constraint.Pattern",
+                "Constraint.Minimum",
+                "Constraint.Maximum",
+                "Constraint.Enum"
+            ]
+        },
+        "declaredsections": {
+            "args": [
+                "Arg0",
+                "Arg1",
+                "Arg2"
+            ],
+            "terms": []
+        },
+        "root": {
+            "args": [],
+            "terms": [
+                "Root.Title",
+                "Root.Description",
+                "Root.Keywords",
+                "Root.Image",
+                "Root.Name",
+                "Root.Version",
+                "Root.Origin",
+                "Root.License",
+                "Root.DataDependencies",
+                "Root.Author",
+                "Root.Contributors",
+                "Contributors.Web",
+                "Contributors.Email",
+                "Root.Sources",
+                "Root.Source",
+                "Root.Contributor"
+            ]
+        },
+        "resources": {
+            "args": [],
+            "terms": [
+                "Root.Resources",
+                "Root.HomePage",
+                "Resources.Path",
+                "Resources.Name",
+                "Resources.Title",
+                "Resources.Description",
+                "Resources.Encoding",
+                "Resources.Format",
+                "Resources.MediaType",
+                "Resources.Bytes",
+                "Resources.Hash",
+                "Resources.License",
+                "Resources.Sources",
+                "Resources.Schema",
+                "Root.Resource",
+                "Resource.Path",
+                "Resource.Name",
+                "Resource.Title",
+                "Resource.Description",
+                "Resource.Encoding",
+                "Resource.Format",
+                "Resource.MediaType",
+                "Resource.Bytes",
+                "Resource.Hash",
+                "Resource.License",
+                "Resource.Schema"
+            ]
+        },
+        "declaredterms": {
+            "args": [
+                "TermValueName",
+                "ChildPropertyType",
+                "Section"
+            ],
+            "terms": []
+        }
+    },
+    "terms": {
+        "resources.mediatype": {
+            "metatabterm": "Resource.MediaType",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.MediaType",
+            "datapackageterm": "resources.mediatype"
+        },
+        "root.homepage": {
+            "metatabterm": "Root.HomePage : Root.Resource",
+            "values": {},
+            "section": "Resources",
+            "term": "Root.HomePage",
+            "datapackageterm": "homepage"
+        },
+        "schemas.primarykey": {
+            "metatabterm": "Table.PrimaryKey",
+            "values": {},
+            "section": "Schemas",
+            "term": "Schemas.PrimaryKey",
+            "datapackageterm": "schemas.primaryKey"
+        },
+        "root.datadependencies": {
+            "metatabterm": "Root.References",
+            "values": {},
+            "section": "Root",
+            "term": "Root.DataDependencies",
+            "datapackageterm": "dataDependencies"
+        },
+        "resources.sources": {
+            "metatabterm": "Resource.Source",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Sources",
+            "datapackageterm": "resources.sources"
+        },
+        "resources.hash": {
+            "metatabterm": "Resource.Hash",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Hash",
+            "datapackageterm": "resources.hash"
+        },
+        "root.title": {
+            "metatabterm": "Root.Title",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Title",
+            "datapackageterm": "title"
+        },
+        "schema.primarykey": {
+            "values": {},
+            "synonym": "Schemas.PrimaryKey",
+            "term": "Schema.PrimaryKey",
+            "section": "Schemas"
+        },
+        "root.resource": {
+            "synonym": "Root.Resources",
+            "term": "Root.Resource",
+            "datapackageterm": "resources",
+            "metatabterm": "Root.Resource",
+            "values": {},
+            "section": "Resources"
+        },
+        "constraints.minlength": {
+            "metatabterm": "Column.MinLength",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.MinLength",
+            "datapackageterm": "constraints.minLength"
+        },
+        "field.datatype": {
+            "values": {},
+            "synonym": "Fields.DataType",
+            "term": "Field.DataType",
+            "section": "Schemas"
+        },
+        "fields.name": {
+            "metatabterm": "Column.Name",
+            "values": {},
+            "section": "Schemas",
+            "term": "Fields.Name",
+            "datapackageterm": "fields.name"
+        },
+        "resources.path": {
+            "termvaluename": "Path",
+            "term": "Resources.Path",
+            "datapackageterm": "resources.path",
+            "metatabterm": "Resource.Url",
+            "values": {},
+            "section": "Resources"
+        },
+        "root.name": {
+            "metatabterm": "Root.Name",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Name",
+            "datapackageterm": "name"
+        },
+        "root.image": {
+            "metatabterm": "Root.Image",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Image",
+            "datapackageterm": "image"
+        },
+        "root.description": {
+            "metatabterm": "Root.Description",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Description",
+            "datapackageterm": "description"
+        },
+        "root.declare": {
+            "values": {},
+            "term": "Declare",
+            "section": "Root"
+        },
+        "schema.field": {
+            "values": {},
+            "termvaluename": "Name",
+            "synonym": "Schemas.Fields",
+            "term": "Schema.Field",
+            "section": "Schemas"
+        },
+        "constraint.enum": {
+            "values": {},
+            "synonym": "Constraints.Enum",
+            "term": "Constraint.Enum",
+            "section": "Schemas"
+        },
+        "schemas.fields": {
+            "termvaluename": "Name",
+            "term": "Schemas.Fields",
+            "datapackageterm": "schemas.fields",
+            "metatabterm": "Table.Column",
+            "values": {},
+            "section": "Schemas"
+        },
+        "resource.mediatype": {
+            "values": {},
+            "synonym": "Resources.MediaType",
+            "term": "Resource.MediaType",
+            "section": "Resources"
+        },
+        "contributors.email": {
+            "metatabterm": "Contact.Email",
+            "values": {},
+            "section": "Root",
+            "term": "Contributors.Email",
+            "datapackageterm": "email"
+        },
+        "schema.foreignkey": {
+            "values": {},
+            "synonym": "Schemas.ForeignKey",
+            "term": "Schema.ForeignKey",
+            "section": "Schemas"
+        },
+        "fields.format": {
+            "metatabterm": "Column.Format",
+            "values": {},
+            "section": "Schemas",
+            "term": "Fields.Format",
+            "datapackageterm": "fields.format"
+        },
+        "constraints.unique": {
+            "metatabterm": "Column.Unique",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.Unique",
+            "datapackageterm": "constraints.unique"
+        },
+        "root.schemas": {
+            "metatabterm": "Root.Table",
+            "values": {},
+            "section": "Schemas",
+            "term": "Root.Schemas",
+            "datapackageterm": "schemas"
+        },
+        "root.schema": {
+            "values": {},
+            "synonym": "Root.Schemas",
+            "term": "Root.Schema",
+            "section": "Schemas"
+        },
+        "root.resources": {
+            "termvaluename": "URl",
+            "term": "Root.Resources",
+            "datapackageterm": "resources",
+            "metatabterm": "Root.Resource",
+            "values": {},
+            "section": "Resources"
+        },
+        "field.title": {
+            "values": {},
+            "synonym": "Fields.Title",
+            "term": "Field.Title",
+            "section": "Schemas"
+        },
+        "constraints.pattern": {
+            "metatabterm": "Column.Pattern",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.Pattern",
+            "datapackageterm": "constraints.pattern"
+        },
+        "fields.constraint": {
+            "metatabterm": "Column.Constraint",
+            "values": {},
+            "section": "Schemas",
+            "term": "Fields.Constraint",
+            "datapackageterm": "fields.constraints"
+        },
+        "root.author": {
+            "metatabterm": "Root.Creator : Root.Contact",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Author",
+            "datapackageterm": "author"
+        },
+        "constraints.maxlength": {
+            "metatabterm": "Column.MaxLength",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.MaxLength",
+            "datapackageterm": "constraints.maxLength"
+        },
+        "root.constraint": {
+            "values": {},
+            "synonym": "Fields.Constraint",
+            "term": "Constraint"
+        },
+        "root.declareterm": {
+            "values": {},
+            "termvaluename": "Term",
+            "term": "DeclareTerm",
+            "section": "DeclaredTerms"
+        },
+        "root.include": {
+            "values": {},
+            "term": "Include",
+            "section": "Root"
+        },
+        "field.missingvalue": {
+            "values": {},
+            "synonym": "Fields.MissingValue",
+            "term": "Field.MissingValue",
+            "section": "Schemas"
+        },
+        "resources.encoding": {
+            "metatabterm": "Resource.Encoding",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Encoding",
+            "datapackageterm": "resources.encoding"
+        },
+        "resources.license": {
+            "metatabterm": "Resource.License",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.License",
+            "datapackageterm": "resources.license"
+        },
+        "resource.schema": {
+            "values": {},
+            "synonym": "Resources.Schema",
+            "term": "Resource.Schema",
+            "section": "Resources"
+        },
+        "declarevalueset.value": {
+            "termvaluename": "value",
+            "childpropertytype": "sequence"
+        },
+        "resources.name": {
+            "metatabterm": "Resource.Name",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Name",
+            "datapackageterm": "resources.name"
+        },
+        "resource.hash": {
+            "values": {},
+            "synonym": "Resources.Hash",
+            "term": "Resource.Hash",
+            "section": "Resources"
+        },
+        "resource.title": {
+            "values": {},
+            "synonym": "Resources.Title",
+            "term": "Resource.Title",
+            "section": "Resources"
+        },
+        "resource.path": {
+            "values": {},
+            "termvaluename": "Path",
+            "synonym": "Resources.Path",
+            "term": "Resource.Path",
+            "section": "Resources"
+        },
+        "resources.bytes": {
+            "metatabterm": "Resource.Size",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Bytes",
+            "datapackageterm": "resources.bytes"
+        },
+        "constraints.maximum": {
+            "metatabterm": "Column.Maximum",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.Maximum",
+            "datapackageterm": "constraints.maximum"
+        },
+        "root.contributors": {
+            "metatabterm": "Root.Contributor : Root.Contact",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Contributors",
+            "datapackageterm": "contributors"
+        },
+        "resources.title": {
+            "metatabterm": "Resource.Title",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Title",
+            "datapackageterm": "resources.title"
+        },
+        "root.synonym": {
+            "values": {},
+            "termvaluename": "Term",
+            "childpropertytype": "sequence",
+            "term": "Synonym",
+            "section": "Root"
+        },
+        "constraint.maxlength": {
+            "values": {},
+            "synonym": "Constraints.MaxLength",
+            "term": "Constraint.MaxLength",
+            "section": "Schemas"
+        },
+        "root.keywords": {
+            "metatabterm": "Root.Keyword",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Keywords",
+            "datapackageterm": "keywords"
+        },
+        "resources.schema": {
+            "metatabterm": "Resource.DescribedBy",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Schema",
+            "datapackageterm": "resources.schema"
+        },
+        "root.origin": {
+            "metatabterm": "Root.Origin",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Origin",
+            "datapackageterm": "sources"
+        },
+        "field.constraint": {
+            "values": {},
+            "synonym": "Fields.Constraint",
+            "term": "Field.Constraint",
+            "section": "Schemas"
+        },
+        "constraint.minimum": {
+            "values": {},
+            "synonym": "Constraints.Minimum",
+            "term": "Constraint.Minimum",
+            "section": "Schemas"
+        },
+        "resource.license": {
+            "values": {},
+            "synonym": "Resources.License",
+            "term": "Resource.License",
+            "section": "Resources"
+        },
+        "fields.description": {
+            "metatabterm": "Column.Description",
+            "values": {},
+            "section": "Schemas",
+            "term": "Fields.Description",
+            "datapackageterm": "fields.description"
+        },
+        "constraints.minimum": {
+            "metatabterm": "Column.Minimum",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.Minimum",
+            "datapackageterm": "constraints.minimum"
+        },
+        "constraints.required": {
+            "metatabterm": "Column.Required",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.Required",
+            "datapackageterm": "constraints.required"
+        },
+        "constraint.unique": {
+            "values": {},
+            "synonym": "Constraints.Unique",
+            "term": "Constraint.Unique",
+            "section": "Schemas"
+        },
+        "root.contributor": {
+            "values": {},
+            "synonym": "Root.Contributors",
+            "term": "Root.Contributor",
+            "section": "Root"
+        },
+        "constraint.minlength": {
+            "values": {},
+            "synonym": "Constraints.MinLength",
+            "term": "Constraint.MinLength",
+            "section": "Schemas"
+        },
+        "resource.bytes": {
+            "values": {},
+            "synonym": "Resources.Bytes",
+            "term": "Resource.Bytes",
+            "section": "Resources"
+        },
+        "root.section": {
+            "values": {},
+            "termvaluename": "Name",
+            "childpropertytype": "sequence",
+            "term": "Section",
+            "section": "Root"
+        },
+        "field.format": {
+            "values": {},
+            "synonym": "Fields.Format",
+            "term": "Field.Format",
+            "section": "Schemas"
+        },
+        "constraint.required": {
+            "values": {},
+            "synonym": "Constraints.Required",
+            "term": "Constraint.Required",
+            "section": "Schemas"
+        },
+        "root.version": {
+            "metatabterm": "Root.Version",
+            "values": {},
+            "section": "Root",
+            "term": "Root.Version",
+            "datapackageterm": "version"
+        },
+        "constraints.enum": {
+            "metatabterm": "Column.Enum",
+            "values": {},
+            "section": "Schemas",
+            "term": "Constraints.Enum",
+            "datapackageterm": "constraints.enum"
+        },
+        "root.declaresection": {
+            "values": {},
+            "termvaluename": "Section",
+            "childpropertytype": "sequence",
+            "term": "DeclareSection",
+            "section": "DeclaredSections"
+        },
+        "fields.datatype": {
+            "metatabterm": "Column.DataType",
+            "values": {},
+            "section": "Schemas",
+            "term": "Fields.DataType",
+            "datapackageterm": "fields.type"
+        },
+        "root.sources": {
+            "termvaluename": "Name",
+            "term": "Root.Sources",
+            "datapackageterm": "sources",
+            "values": {},
+            "childpropertytype": "sequence",
+            "section": "Root"
+        },
+        "fields.missingvalue": {
+            "metatabterm": "Column.MissingValue",
+            "values": {},
+            "section": "Schemas",
+            "term": "Fields.MissingValue",
+            "datapackageterm": "fields.missingValue"
+        },
+        "root.field": {
+            "values": {},
+            "synonym": "Schemas.Fields",
+            "term": "Field",
+            "section": "Schemas"
+        },
+        "field.name": {
+            "values": {},
+            "synonym": "Fields.Name",
+            "term": "Field.Name",
+            "section": "Schemas"
+        },
+        "resource.encoding": {
+            "values": {},
+            "synonym": "Resources.Encoding",
+            "term": "Resource.Encoding",
+            "section": "Resources"
+        },
+        "resource.name": {
+            "values": {},
+            "synonym": "Resources.Name",
+            "term": "Resource.Name",
+            "section": "Resources"
+        },
+        "fields.title": {
+            "metatabterm": "Column.Title",
+            "values": {},
+            "section": "Schemas",
+            "term": "Fields.Title",
+            "datapackageterm": "fields.title"
+        },
+        "constraint.maximum": {
+            "values": {},
+            "synonym": "Constraints.Maximum",
+            "term": "Constraint.Maximum",
+            "section": "Schemas"
+        },
+        "resource.format": {
+            "values": {},
+            "synonym": "Resources.Format",
+            "term": "Resource.Format",
+            "section": "Resources"
+        },
+        "constraint.pattern": {
+            "values": {},
+            "synonym": "Constraints.Pattern",
+            "term": "Constraint.Pattern",
+            "section": "Schemas"
+        },
+        "resources.format": {
+            "metatabterm": "Resource.Format",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Format",
+            "datapackageterm": "resources.format"
+        },
+        "root.license": {
+            "metatabterm": "Root.License",
+            "values": {},
+            "section": "Root",
+            "term": "Root.License",
+            "datapackageterm": "license"
+        },
+        "root.declarevalueset": {
+            "termvaluename": "name",
+            "childpropertytype": "sequence"
+        },
+        "contributors.web": {
+            "metatabterm": "Contact.URL",
+            "values": {},
+            "section": "Root",
+            "term": "Contributors.Web",
+            "datapackageterm": "web"
+        },
+        "schemas.foreignkey": {
+            "metatabterm": "Table.ForeignKey",
+            "values": {},
+            "section": "Schemas",
+            "term": "Schemas.ForeignKey",
+            "datapackageterm": "schemas.foreignKeys"
+        },
+        "root.source": {
+            "values": {},
+            "synonym": "Root.Sources",
+            "term": "Root.Source",
+            "section": "Root"
+        },
+        "resource.description": {
+            "values": {},
+            "synonym": "Resources.Description",
+            "term": "Resource.Description",
+            "section": "Resources"
+        },
+        "resources.description": {
+            "metatabterm": "Resource.Description",
+            "values": {},
+            "section": "Resources",
+            "term": "Resources.Description",
+            "datapackageterm": "resources.description"
+        },
+        "field.description": {
+            "values": {},
+            "synonym": "Fields.Description",
+            "term": "Field.Description",
+            "section": "Schemas"
+        }
+    }
+}
