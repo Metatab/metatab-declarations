@@ -1,284 +1,14 @@
 {
     "terms": {
-        "column.missingvalue": {
-            "term": "Column.MissingValue",
-            "section": "Schemas",
-            "values": {}
-        },
-        "root.subject": {
-            "term": "Root.Subject",
-            "section": "Root",
-            "values": {}
-        },
-        "documentation.title": {
-            "term": "Documentation.Title",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.conformsto": {
-            "term": "API.ConformsTo",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "contributor.org": {
-            "term": "Contributor.Org",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "supplementarydata.name": {
-            "term": "SupplementaryData.Name",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.declaresection": {
-            "term": "DeclareSection",
-            "section": "DeclaredSections",
-            "termvaluename": "Section",
-            "childpropertytype": "sequence",
-            "values": {}
-        },
-        "resource.mediatype": {
-            "term": "Resource.MediaType",
-            "section": "Resources",
-            "values": {}
-        },
-        "datafile.license": {
-            "term": "DataFile.License",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.name": {
-            "term": "DataFile.Name",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.accesslevel": {
-            "term": "Root.AccessLevel",
-            "section": "Root",
-            "values": {}
-        },
-        "root.datadictionary": {
-            "section": "Resources",
-            "term": "Root.DataDictionary",
-            "inheritsfrom": "Root.Resource",
-            "termvaluename": "Url",
-            "values": {}
-        },
-        "root.summary": {
-            "term": "Root.Summary",
-            "section": "Root",
-            "values": {}
-        },
-        "maintainer.url": {
-            "term": "Maintainer.URL",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "documentation.language": {
-            "term": "Documentation.Language",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.encoding": {
-            "term": "DataFile.Encoding",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.license": {
-            "term": "DownloadPage.License",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.wrangler": {
-            "section": "Contacts",
-            "term": "Root.Wrangler",
-            "inheritsfrom": "Root.Contact",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "table.column": {
-            "term": "Table.Column",
-            "section": "Schemas",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "documentation.size": {
-            "term": "Documentation.Size",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.license": {
-            "term": "HomePage.License",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "wrangler.email": {
-            "term": "Wrangler.Email",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.origin": {
-            "term": "Resource.Origin",
-            "section": "Resources",
-            "values": {}
-        },
-        "column.title": {
-            "term": "Column.Title",
-            "section": "Schemas",
-            "values": {}
-        },
-        "supplementarydata.describedby": {
-            "term": "SupplementaryData.DescribedBy",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.rights": {
-            "term": "Root.Rights",
-            "section": "Root",
-            "values": {}
-        },
-        "resource.size": {
-            "term": "Resource.Size",
-            "section": "Resources",
-            "values": {}
-        },
-        "root.declareterm": {
-            "term": "DeclareTerm",
-            "section": "DeclaredTerms",
-            "termvaluename": "Term",
-            "values": {}
-        },
-        "datadictionary.language": {
-            "term": "DataDictionary.Language",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.size": {
-            "term": "DataFile.Size",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
         "datadictionary.url": {
             "term": "DataDictionary.Url",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         },
-        "datadictionary.mediatype": {
-            "term": "DataDictionary.MediaType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.image": {
-            "term": "Root.Image",
-            "section": "Root",
-            "values": {}
-        },
-        "root.title": {
-            "term": "Root.Title",
-            "section": "Root",
-            "values": {}
-        },
-        "downloadpage.format": {
-            "term": "DownloadPage.Format",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "contributor.name": {
-            "term": "Contributor.Name",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.encoding": {
-            "term": "DownloadPage.Encoding",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.description": {
-            "term": "API.Description",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datadictionary.describedbytype": {
-            "term": "DataDictionary.DescribedByType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datadictionary.size": {
-            "term": "DataDictionary.Size",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.sourceurl": {
-            "term": "DataFile.SourceURL",
-            "section": "Resources",
-            "values": {}
-        },
-        "api.origin": {
-            "term": "API.Origin",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.describedby": {
-            "term": "DataFile.DescribedBy",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.url": {
-            "term": "API.Url",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "creator.url": {
-            "term": "Creator.URL",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datadictionary.conformsto": {
-            "term": "DataDictionary.ConformsTo",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.homepage": {
-            "section": "Resources",
-            "term": "Root.HomePage",
-            "inheritsfrom": "Root.Resource",
-            "termvaluename": "Url",
-            "values": {}
-        },
-        "supplementarydata.title": {
-            "term": "SupplementaryData.Title",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
+        "root.declarevalueset": {
+            "childpropertytype": "sequence",
+            "termvaluename": "name"
         },
         "datadictionary.hash": {
             "term": "DataDictionary.Hash",
@@ -286,730 +16,29 @@
             "inheritsfrom": "",
             "values": {}
         },
-        "contact.url": {
-            "term": "Contact.URL",
-            "section": "Contacts",
-            "values": {}
-        },
-        "root.ispartof": {
-            "term": "Root.IsPartOf",
+        "root.grain": {
+            "termvaluename": "Label",
+            "labelname": "Label",
             "section": "Root",
-            "values": {}
+            "values": {},
+            "codename": "Code",
+            "term": "Root.Grain"
         },
-        "root.documentation": {
-            "section": "Resources",
-            "term": "Root.Documentation",
-            "inheritsfrom": "Root.Resource",
-            "termvaluename": "Url",
-            "values": {}
-        },
-        "homepage.name": {
-            "term": "HomePage.Name",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.describedbytype": {
-            "term": "HomePage.DescribedByType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "declarevalueset.value": {
-            "childpropertytype": "sequence",
-            "termvaluename": "value"
-        },
-        "origin.org": {
-            "term": "Origin.Org",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "maintainer.email": {
-            "term": "Maintainer.Email",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.conformsto": {
-            "term": "DataFile.ConformsTo",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "origin.url": {
-            "term": "Origin.URL",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.language": {
-            "term": "Root.Language",
-            "section": "Root",
-            "values": {}
-        },
-        "table.description": {
-            "term": "Table.Description",
-            "section": "Schemas",
-            "values": {}
-        },
-        "root.synonym": {
-            "term": "Synonym",
-            "section": "Root",
-            "termvaluename": "Term",
-            "childpropertytype": "sequence",
-            "values": {}
-        },
-        "datadictionary.describedby": {
-            "term": "DataDictionary.DescribedBy",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.keyword": {
-            "term": "Root.Keyword",
-            "section": "Root",
-            "values": {}
-        },
-        "root.issued": {
-            "term": "Root.Issued",
-            "section": "Root",
-            "values": {}
-        },
-        "resource.describedbytype": {
-            "term": "Resource.DescribedByType",
-            "section": "Resources",
-            "values": {}
-        },
-        "documentation.describedby": {
-            "term": "Documentation.DescribedBy",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "table.primarykey": {
-            "term": "Table.PrimaryKey",
-            "section": "Schemas",
-            "values": {}
-        },
-        "root.column": {
-            "term": "Column",
-            "section": "Schemas",
-            "synonym": "Table.Column",
-            "values": {}
-        },
-        "downloadpage.mediatype": {
-            "term": "DownloadPage.MediaType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.contributor": {
-            "section": "Contacts",
-            "term": "Root.Contributor",
-            "inheritsfrom": "Root.Contact",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "root.accrualperiodicity": {
-            "term": "Root.AccrualPeriodicity",
-            "section": "Root",
-            "values": {}
-        },
-        "documentation.format": {
-            "term": "Documentation.Format",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.url": {
-            "term": "HomePage.Url",
+        "datadictionary.mediatype": {
+            "term": "DataDictionary.MediaType",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         },
         "root.supplementarydata": {
-            "section": "Resources",
-            "term": "Root.SupplementaryData",
-            "inheritsfrom": "Root.Resource",
+            "values": {},
             "termvaluename": "Url",
-            "values": {}
-        },
-        "column.maximum": {
-            "term": "Column.Maximum",
-            "section": "Schemas",
-            "values": {}
-        },
-        "api.encoding": {
-            "term": "API.Encoding",
             "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.size": {
-            "term": "DownloadPage.Size",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "column.maxlength": {
-            "term": "Column.MaxLength",
-            "section": "Schemas",
-            "values": {}
-        },
-        "api.format": {
-            "term": "API.Format",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "column.required": {
-            "term": "Column.Required",
-            "section": "Schemas",
-            "values": {}
-        },
-        "documentation.hash": {
-            "term": "Documentation.Hash",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.references": {
-            "term": "Root.References",
-            "section": "Root",
-            "values": {}
-        },
-        "api.mediatype": {
-            "term": "API.MediaType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.hash": {
-            "term": "Resource.Hash",
-            "section": "Resources",
-            "values": {}
-        },
-        "root.spatialcoverage": {
-            "labelname": "Label",
-            "section": "Root",
-            "termvaluename": "Label",
-            "term": "Root.SpatialCoverage",
-            "codename": "Code",
-            "values": {}
-        },
-        "supplementarydata.encoding": {
-            "term": "SupplementaryData.Encoding",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datadictionary.description": {
-            "term": "DataDictionary.Description",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.name": {
-            "term": "Root.Name",
-            "section": "Root",
-            "values": {}
-        },
-        "homepage.language": {
-            "term": "HomePage.Language",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.grain": {
-            "labelname": "Label",
-            "section": "Root",
-            "termvaluename": "Label",
-            "term": "Root.Grain",
-            "codename": "Code",
-            "values": {}
-        },
-        "wrangler.url": {
-            "term": "Wrangler.URL",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.mediatype": {
-            "term": "HomePage.MediaType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "supplementarydata.language": {
-            "term": "SupplementaryData.Language",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.origin": {
-            "term": "HomePage.Origin",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.title": {
-            "term": "DownloadPage.Title",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.spatialcoverage": {
-            "term": "DataFile.SpatialCoverage",
-            "section": "Resources",
-            "values": {}
-        },
-        "documentation.name": {
-            "term": "Documentation.Name",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.license": {
-            "term": "API.License",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.language": {
-            "term": "DownloadPage.Language",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "wrangler.name": {
-            "term": "Wrangler.Name",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.license": {
-            "term": "Root.License",
-            "section": "Root",
-            "values": {}
-        },
-        "creator.org": {
-            "term": "Creator.Org",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "contributor.email": {
-            "term": "Contributor.Email",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "column.description": {
-            "term": "Column.Description",
-            "section": "Schemas",
-            "values": {}
-        },
-        "wrangler.org": {
-            "term": "Wrangler.Org",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.describedbytype": {
-            "term": "DownloadPage.DescribedByType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.describedby": {
-            "term": "DownloadPage.DescribedBy",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.format": {
-            "term": "Resource.Format",
-            "section": "Resources",
-            "values": {}
-        },
-        "datafile.description": {
-            "term": "DataFile.Description",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "publisher.name": {
-            "term": "Publisher.Name",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.size": {
-            "term": "HomePage.Size",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.hash": {
-            "term": "DataFile.Hash",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.title": {
-            "term": "API.Title",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.resource": {
-            "term": "Root.Resource",
-            "section": "Resources",
-            "values": {}
-        },
-        "root.modified": {
-            "term": "Root.Modified",
-            "section": "Root",
-            "values": {}
-        },
-        "root.origin": {
-            "section": "Contacts",
-            "term": "Root.Origin",
-            "inheritsfrom": "Root.Contact",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "datadictionary.name": {
-            "term": "DataDictionary.Name",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "table.datafile": {
-            "section": "Schemas",
-            "term": "Table.Datafile",
-            "inheritsfrom": "Root.Datafile",
-            "values": {}
-        },
-        "table.entitytype": {
-            "term": "Table.EntityType",
-            "section": "Schemas",
-            "values": {}
-        },
-        "homepage.hash": {
-            "term": "HomePage.Hash",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.describedbytype": {
-            "term": "API.DescribedByType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.describedby": {
-            "term": "Resource.DescribedBy",
-            "section": "Resources",
-            "values": {}
-        },
-        "downloadpage.conformsto": {
-            "term": "DownloadPage.ConformsTo",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.encoding": {
-            "term": "Resource.Encoding",
-            "section": "Resources",
-            "values": {}
-        },
-        "table.name": {
-            "term": "Table.Name",
-            "section": "Schemas",
-            "values": {}
-        },
-        "root.publisher": {
-            "section": "Contacts",
-            "term": "Root.Publisher",
-            "inheritsfrom": "Root.Contact",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "resource.license": {
-            "term": "Resource.License",
-            "section": "Resources",
-            "values": {}
-        },
-        "api.name": {
-            "term": "API.Name",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.endline": {
-            "term": "DataFile.EndLine",
-            "section": "Resources",
-            "values": {}
-        },
-        "datafile.schema": {
-            "term": "DataFile.Schema",
-            "section": "Resources",
-            "values": {}
-        },
-        "publisher.email": {
-            "term": "Publisher.Email",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.origin": {
-            "term": "DownloadPage.Origin",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.encoding": {
-            "term": "HomePage.Encoding",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.datafile": {
-            "section": "Resources",
-            "term": "Root.DataFile",
             "inheritsfrom": "Root.Resource",
-            "termvaluename": "Url",
-            "values": {}
+            "term": "Root.SupplementaryData"
         },
-        "supplementarydata.describedbytype": {
-            "term": "SupplementaryData.DescribedByType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "column.datatype": {
-            "term": "Column.DataType",
-            "section": "Schemas",
-            "values": {}
-        },
-        "documentation.description": {
-            "term": "Documentation.Description",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.conformsto": {
-            "term": "HomePage.ConformsTo",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "supplementarydata.format": {
-            "term": "SupplementaryData.Format",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.format": {
-            "term": "HomePage.Format",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "datafile.spatialgrain": {
-            "term": "DataFile.SpatialGrain",
-            "section": "Resources",
-            "values": {}
-        },
-        "origin.email": {
-            "term": "Origin.Email",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "column.enum": {
-            "term": "Column.Enum",
-            "section": "Schemas",
-            "values": {}
-        },
-        "creator.email": {
-            "term": "Creator.Email",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "documentation.url": {
-            "term": "Documentation.Url",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "column.minimum": {
-            "term": "Column.Minimum",
-            "section": "Schemas",
-            "values": {}
-        },
-        "root.maintainer": {
-            "section": "Contacts",
-            "term": "Root.Maintainer",
-            "inheritsfrom": "Root.Contact",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "root.declarevalueset": {
-            "childpropertytype": "sequence",
-            "termvaluename": "name"
-        },
-        "documentation.conformsto": {
-            "term": "Documentation.ConformsTo",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "column.name": {
-            "term": "Column.Name",
-            "section": "Schemas",
-            "values": {}
-        },
-        "column.minlength": {
-            "term": "Column.MinLength",
-            "section": "Schemas",
-            "values": {}
-        },
-        "column.format": {
-            "term": "Column.Format",
-            "section": "Schemas",
-            "values": {}
-        },
-        "datafile.language": {
-            "term": "DataFile.Language",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.size": {
-            "term": "API.Size",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.creator": {
-            "section": "Contacts",
-            "term": "Root.Creator",
-            "inheritsfrom": "Root.Contact",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "root.contact": {
-            "term": "Root.Contact",
-            "section": "Contacts",
-            "values": {}
-        },
-        "contributor.url": {
-            "term": "Contributor.URL",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "supplementarydata.size": {
-            "term": "SupplementaryData.Size",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "publisher.org": {
-            "term": "Publisher.Org",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.downloadpage": {
-            "section": "Resources",
-            "term": "Root.DownloadPage",
-            "inheritsfrom": "Root.Resource",
-            "termvaluename": "Url",
-            "values": {}
-        },
-        "root.description": {
-            "term": "Root.Description",
-            "section": "Root",
-            "values": {}
-        },
-        "datafile.format": {
-            "term": "DataFile.Format",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.api": {
-            "section": "Resources",
-            "term": "Root.API",
-            "inheritsfrom": "Root.Resource",
-            "termvaluename": "Url",
-            "values": {}
-        },
-        "datafile.url": {
-            "term": "DataFile.Url",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "maintainer.org": {
-            "term": "Maintainer.Org",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "supplementarydata.conformsto": {
-            "term": "SupplementaryData.ConformsTo",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.version": {
-            "term": "Root.Version",
-            "section": "Root",
-            "values": {}
-        },
-        "origin.name": {
-            "term": "Origin.Name",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "maintainer.name": {
-            "term": "Maintainer.Name",
-            "section": "Contacts",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "documentation.mediatype": {
-            "term": "Documentation.MediaType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "downloadpage.hash": {
-            "term": "DownloadPage.Hash",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.description": {
-            "term": "Resource.Description",
-            "section": "Resources",
-            "values": {}
-        },
-        "supplementarydata.mediatype": {
-            "term": "SupplementaryData.MediaType",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "homepage.describedby": {
-            "term": "HomePage.DescribedBy",
+        "downloadpage.url": {
+            "term": "DownloadPage.Url",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
@@ -1020,22 +49,358 @@
             "inheritsfrom": "",
             "values": {}
         },
-        "datafile.describedbytype": {
-            "term": "DataFile.DescribedByType",
+        "datafile.headerlines": {
+            "values": {},
+            "section": "Resources",
+            "term": "DataFile.HeaderLines"
+        },
+        "datafile.description": {
+            "term": "DataFile.Description",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         },
-        "table.foreignkey": {
-            "term": "Table.ForeignKey",
+        "column.minimum": {
+            "values": {},
             "section": "Schemas",
-            "values": {}
+            "term": "Column.Minimum"
         },
-        "datafile.origin": {
-            "term": "DataFile.Origin",
+        "datadictionary.language": {
+            "term": "DataDictionary.Language",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
+        },
+        "root.license": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.License"
+        },
+        "downloadpage.size": {
+            "term": "DownloadPage.Size",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.mediatype": {
+            "term": "HomePage.MediaType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.size": {
+            "term": "DataFile.Size",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "table.datafile": {
+            "values": {},
+            "inheritsfrom": "Root.Datafile",
+            "section": "Schemas",
+            "term": "Table.Datafile"
+        },
+        "contributor.url": {
+            "term": "Contributor.URL",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "wrangler.url": {
+            "term": "Wrangler.URL",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.describedby": {
+            "term": "HomePage.DescribedBy",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.format": {
+            "term": "DownloadPage.Format",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.conformsto": {
+            "term": "HomePage.ConformsTo",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "resource.description": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Description"
+        },
+        "resource.title": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Title"
+        },
+        "datafile.endline": {
+            "values": {},
+            "section": "Resources",
+            "term": "DataFile.EndLine"
+        },
+        "homepage.title": {
+            "term": "HomePage.Title",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "resource.format": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Format"
+        },
+        "downloadpage.describedby": {
+            "term": "DownloadPage.DescribedBy",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "declarevalueset.value": {
+            "childpropertytype": "sequence",
+            "termvaluename": "value"
+        },
+        "creator.email": {
+            "term": "Creator.Email",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.subject": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Subject"
+        },
+        "contact.org": {
+            "values": {},
+            "section": "Contacts",
+            "term": "Contact.Org"
+        },
+        "homepage.description": {
+            "term": "HomePage.Description",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.name": {
+            "term": "Documentation.Name",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datadictionary.description": {
+            "term": "DataDictionary.Description",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "api.title": {
+            "term": "API.Title",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.summary": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Summary"
+        },
+        "resource.origin": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Origin"
+        },
+        "root.spatialcoverage": {
+            "termvaluename": "Label",
+            "labelname": "Label",
+            "section": "Root",
+            "values": {},
+            "codename": "Code",
+            "term": "Root.SpatialCoverage"
+        },
+        "downloadpage.conformsto": {
+            "term": "DownloadPage.ConformsTo",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "wrangler.org": {
+            "term": "Wrangler.Org",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.analyst": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Contacts",
+            "inheritsfrom": "Root.Contact",
+            "term": "Root.Analyst"
+        },
+        "supplementarydata.name": {
+            "term": "SupplementaryData.Name",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.title": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Title"
+        },
+        "root.maintainer": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Contacts",
+            "inheritsfrom": "Root.Contact",
+            "term": "Root.Maintainer"
+        },
+        "root.datafile": {
+            "values": {},
+            "termvaluename": "Url",
+            "section": "Resources",
+            "inheritsfrom": "Root.Resource",
+            "term": "Root.DataFile"
+        },
+        "contact.name": {
+            "values": {},
+            "section": "Contacts",
+            "term": "Contact.Name"
+        },
+        "api.size": {
+            "term": "API.Size",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.describedbytype": {
+            "term": "DownloadPage.DescribedByType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.url": {
+            "term": "HomePage.Url",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.format": {
+            "term": "DataFile.Format",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.rights": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Rights"
+        },
+        "contributor.org": {
+            "term": "Contributor.Org",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.title": {
+            "term": "Documentation.Title",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.name": {
+            "term": "HomePage.Name",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.modified": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Modified"
+        },
+        "column.constraint": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Constraint"
+        },
+        "datadictionary.size": {
+            "term": "DataDictionary.Size",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "creator.org": {
+            "term": "Creator.Org",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.encoding": {
+            "term": "DownloadPage.Encoding",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "wrangler.name": {
+            "term": "Wrangler.Name",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datadictionary.describedby": {
+            "term": "DataDictionary.DescribedBy",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.name": {
+            "term": "DownloadPage.Name",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "api.description": {
+            "term": "API.Description",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.declaresection": {
+            "childpropertytype": "sequence",
+            "values": {},
+            "termvaluename": "Section",
+            "section": "DeclaredSections",
+            "term": "DeclareSection"
+        },
+        "origin.name": {
+            "term": "Origin.Name",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "contributor.email": {
+            "term": "Contributor.Email",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.mediatype": {
+            "term": "Documentation.MediaType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "column.pattern": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Pattern"
         },
         "datadictionary.license": {
             "term": "DataDictionary.License",
@@ -1043,54 +408,10 @@
             "inheritsfrom": "",
             "values": {}
         },
-        "documentation.describedbytype": {
-            "term": "Documentation.DescribedByType",
+        "datafile.spatialcoverage": {
+            "values": {},
             "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.include": {
-            "term": "Include",
-            "section": "Root",
-            "values": {}
-        },
-        "datafile.grain": {
-            "term": "DataFile.Grain",
-            "section": "Resources",
-            "values": {}
-        },
-        "downloadpage.description": {
-            "term": "DownloadPage.Description",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "documentation.origin": {
-            "term": "Documentation.Origin",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.conformsto": {
-            "term": "Resource.ConformsTo",
-            "section": "Resources",
-            "values": {}
-        },
-        "datafile.headerlines": {
-            "term": "DataFile.HeaderLines",
-            "section": "Resources",
-            "values": {}
-        },
-        "resource.name": {
-            "term": "Resource.Name",
-            "section": "Resources",
-            "values": {}
-        },
-        "api.hash": {
-            "term": "API.Hash",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
+            "term": "DataFile.SpatialCoverage"
         },
         "publisher.url": {
             "term": "Publisher.URL",
@@ -1098,66 +419,41 @@
             "inheritsfrom": "",
             "values": {}
         },
-        "api.describedby": {
-            "term": "API.DescribedBy",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "api.language": {
-            "term": "API.Language",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.created": {
-            "term": "Root.Created",
-            "section": "Root",
-            "values": {}
-        },
-        "root.temporalcoverage": {
-            "labelname": "Label",
-            "section": "Root",
-            "termvaluename": "Label",
-            "term": "Root.TemporalCoverage",
-            "codename": "Code",
-            "values": {}
-        },
-        "supplementarydata.url": {
-            "term": "SupplementaryData.Url",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "root.identifier": {
-            "term": "Root.Identifier",
-            "section": "Root",
-            "values": {}
-        },
-        "column.constraint": {
-            "term": "Column.Constraint",
+        "column.description": {
+            "values": {},
             "section": "Schemas",
-            "values": {}
+            "term": "Column.Description"
         },
-        "supplementarydata.origin": {
-            "term": "SupplementaryData.Origin",
+        "datafile.grain": {
+            "values": {},
             "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
+            "term": "DataFile.Grain"
         },
-        "supplementarydata.hash": {
-            "term": "SupplementaryData.Hash",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
+        "root.image": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Image"
         },
-        "column.pattern": {
-            "term": "Column.Pattern",
+        "root.contributor": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Contacts",
+            "inheritsfrom": "Root.Contact",
+            "term": "Root.Contributor"
+        },
+        "column.valuetype": {
+            "values": {},
             "section": "Schemas",
+            "term": "Column.ValueType"
+        },
+        "api.describedbytype": {
+            "term": "API.DescribedByType",
+            "section": "Resources",
+            "inheritsfrom": "",
             "values": {}
         },
-        "datadictionary.encoding": {
-            "term": "DataDictionary.Encoding",
+        "documentation.size": {
+            "term": "Documentation.Size",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
@@ -1168,71 +464,147 @@
             "inheritsfrom": "",
             "values": {}
         },
+        "column.title": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Title"
+        },
+        "root.description": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Description"
+        },
+        "root.downloadpage": {
+            "values": {},
+            "termvaluename": "Url",
+            "section": "Resources",
+            "inheritsfrom": "Root.Resource",
+            "term": "Root.DownloadPage"
+        },
+        "root.references": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.References"
+        },
+        "downloadpage.description": {
+            "term": "DownloadPage.Description",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "column.maximum": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Maximum"
+        },
+        "resource.hash": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Hash"
+        },
+        "downloadpage.license": {
+            "term": "DownloadPage.License",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.conformsto": {
+            "term": "DataFile.ConformsTo",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "origin.email": {
+            "term": "Origin.Email",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.origin": {
+            "term": "HomePage.Origin",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.origin": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Contacts",
+            "inheritsfrom": "Root.Contact",
+            "term": "Root.Origin"
+        },
         "supplementarydata.description": {
             "term": "SupplementaryData.Description",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         },
-        "datafile.commentlines": {
-            "term": "DataFile.CommentLines",
-            "section": "Resources",
-            "values": {}
-        },
-        "table.title": {
-            "term": "Table.Title",
-            "section": "Schemas",
-            "values": {}
-        },
-        "root.section": {
-            "term": "Section",
-            "section": "Root",
-            "termvaluename": "Name",
-            "childpropertytype": "sequence",
-            "values": {}
-        },
-        "homepage.description": {
-            "term": "HomePage.Description",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "resource.url": {
-            "term": "Resource.Url",
-            "section": "Resources",
-            "values": {}
-        },
-        "homepage.title": {
-            "term": "HomePage.Title",
-            "section": "Resources",
-            "inheritsfrom": "",
-            "values": {}
-        },
-        "contact.name": {
-            "term": "Contact.Name",
+        "wrangler.email": {
+            "term": "Wrangler.Email",
             "section": "Contacts",
+            "inheritsfrom": "",
             "values": {}
         },
-        "resource.title": {
-            "term": "Resource.Title",
+        "root.keyword": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Keyword"
+        },
+        "datafile.startline": {
+            "values": {},
             "section": "Resources",
-            "values": {}
+            "term": "DataFile.StartLine"
         },
-        "root.table": {
-            "term": "Root.Table",
-            "section": "Schemas",
-            "termvaluename": "Name",
-            "values": {}
-        },
-        "documentation.encoding": {
-            "term": "Documentation.Encoding",
+        "homepage.format": {
+            "term": "HomePage.Format",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         },
-        "datafile.temporalcoverage": {
-            "term": "DataFile.TemporalCoverage",
+        "api.origin": {
+            "term": "API.Origin",
             "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "creator.url": {
+            "term": "Creator.URL",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "analyst.org": {
+            "term": "Analyst.Org",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datadictionary.conformsto": {
+            "term": "DataDictionary.ConformsTo",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "column.maxlength": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.MaxLength"
+        },
+        "column.enum": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Enum"
+        },
+        "datafile.language": {
+            "term": "DataFile.Language",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "maintainer.org": {
+            "term": "Maintainer.Org",
+            "section": "Contacts",
+            "inheritsfrom": "",
             "values": {}
         },
         "datadictionary.origin": {
@@ -1241,35 +613,209 @@
             "inheritsfrom": "",
             "values": {}
         },
-        "downloadpage.url": {
-            "term": "DownloadPage.Url",
+        "homepage.size": {
+            "term": "HomePage.Size",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         },
-        "column.unique": {
-            "term": "Column.Unique",
+        "resource.mediatype": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.MediaType"
+        },
+        "supplementarydata.describedbytype": {
+            "term": "SupplementaryData.DescribedByType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "resource.encoding": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Encoding"
+        },
+        "api.describedby": {
+            "term": "API.DescribedBy",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "supplementarydata.format": {
+            "term": "SupplementaryData.Format",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.origin": {
+            "term": "DataFile.Origin",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.temporalcoverage": {
+            "values": {},
+            "section": "Resources",
+            "term": "DataFile.TemporalCoverage"
+        },
+        "root.declareterm": {
+            "values": {},
+            "termvaluename": "Term",
+            "section": "DeclaredTerms",
+            "term": "DeclareTerm"
+        },
+        "supplementarydata.hash": {
+            "term": "SupplementaryData.Hash",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.describedby": {
+            "term": "Documentation.DescribedBy",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.language": {
+            "term": "DownloadPage.Language",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.describedbytype": {
+            "term": "DataFile.DescribedByType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datadictionary.encoding": {
+            "term": "DataDictionary.Encoding",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "resource.describedby": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.DescribedBy"
+        },
+        "root.section": {
+            "childpropertytype": "sequence",
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Root",
+            "term": "Section"
+        },
+        "origin.org": {
+            "term": "Origin.Org",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.hash": {
+            "term": "Documentation.Hash",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.documentation": {
+            "values": {},
+            "termvaluename": "Url",
+            "section": "Resources",
+            "inheritsfrom": "Root.Resource",
+            "term": "Root.Documentation"
+        },
+        "column.missingvalue": {
+            "values": {},
             "section": "Schemas",
+            "term": "Column.MissingValue"
+        },
+        "datafile.url": {
+            "term": "DataFile.Url",
+            "section": "Resources",
+            "inheritsfrom": "",
             "values": {}
         },
-        "column.valuetype": {
-            "term": "Column.ValueType",
+        "table.title": {
+            "values": {},
             "section": "Schemas",
+            "term": "Table.Title"
+        },
+        "analyst.name": {
+            "term": "Analyst.Name",
+            "section": "Contacts",
+            "inheritsfrom": "",
             "values": {}
         },
-        "datafile.startline": {
-            "term": "DataFile.StartLine",
+        "documentation.encoding": {
+            "term": "Documentation.Encoding",
             "section": "Resources",
+            "inheritsfrom": "",
             "values": {}
         },
-        "resource.language": {
-            "term": "Resource.Language",
+        "api.url": {
+            "term": "API.Url",
             "section": "Resources",
+            "inheritsfrom": "",
             "values": {}
         },
-        "datadictionary.format": {
-            "term": "DataDictionary.Format",
+        "datafile.encoding": {
+            "term": "DataFile.Encoding",
             "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.identifier": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Identifier"
+        },
+        "root.created": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Created"
+        },
+        "root.resource": {
+            "values": {},
+            "section": "Resources",
+            "term": "Root.Resource"
+        },
+        "root.accrualperiodicity": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.AccrualPeriodicity"
+        },
+        "root.temporalcoverage": {
+            "termvaluename": "Label",
+            "labelname": "Label",
+            "section": "Root",
+            "values": {},
+            "codename": "Code",
+            "term": "Root.TemporalCoverage"
+        },
+        "root.synonym": {
+            "childpropertytype": "sequence",
+            "values": {},
+            "termvaluename": "Term",
+            "section": "Root",
+            "term": "Synonym"
+        },
+        "root.creator": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Contacts",
+            "inheritsfrom": "Root.Contact",
+            "term": "Root.Creator"
+        },
+        "datafile.hash": {
+            "term": "DataFile.Hash",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "analyst.url": {
+            "term": "Analyst.URL",
+            "section": "Contacts",
             "inheritsfrom": "",
             "values": {}
         },
@@ -1279,19 +825,168 @@
             "inheritsfrom": "",
             "values": {}
         },
-        "root.declare": {
-            "term": "Declare",
-            "section": "Root",
-            "values": {}
-        },
-        "contact.org": {
-            "term": "Contact.Org",
+        "publisher.email": {
+            "term": "Publisher.Email",
             "section": "Contacts",
+            "inheritsfrom": "",
             "values": {}
         },
-        "documentation.license": {
-            "term": "Documentation.License",
+        "table.entitytype": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Table.EntityType"
+        },
+        "resource.name": {
+            "values": {},
             "section": "Resources",
+            "term": "Resource.Name"
+        },
+        "homepage.encoding": {
+            "term": "HomePage.Encoding",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.table": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Schemas",
+            "term": "Root.Table"
+        },
+        "homepage.hash": {
+            "term": "HomePage.Hash",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.spatialgrain": {
+            "values": {},
+            "section": "Resources",
+            "term": "DataFile.SpatialGrain"
+        },
+        "root.accesslevel": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.AccessLevel"
+        },
+        "datafile.mediatype": {
+            "term": "DataFile.MediaType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "origin.url": {
+            "term": "Origin.URL",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "supplementarydata.encoding": {
+            "term": "SupplementaryData.Encoding",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "api.license": {
+            "term": "API.License",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.origin": {
+            "term": "Documentation.Origin",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "api.name": {
+            "term": "API.Name",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.declare": {
+            "values": {},
+            "section": "Root",
+            "term": "Declare"
+        },
+        "table.foreignkey": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Table.ForeignKey"
+        },
+        "resource.conformsto": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.ConformsTo"
+        },
+        "publisher.org": {
+            "term": "Publisher.Org",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "supplementarydata.describedby": {
+            "term": "SupplementaryData.DescribedBy",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.language": {
+            "term": "HomePage.Language",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.hash": {
+            "term": "DownloadPage.Hash",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "supplementarydata.conformsto": {
+            "term": "SupplementaryData.ConformsTo",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.origin": {
+            "term": "DownloadPage.Origin",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.sourceurl": {
+            "values": {},
+            "section": "Resources",
+            "term": "DataFile.SourceURL"
+        },
+        "root.datadictionary": {
+            "values": {},
+            "termvaluename": "Url",
+            "section": "Resources",
+            "inheritsfrom": "Root.Resource",
+            "term": "Root.DataDictionary"
+        },
+        "column.minlength": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.MinLength"
+        },
+        "datafile.commentlines": {
+            "values": {},
+            "section": "Resources",
+            "term": "DataFile.CommentLines"
+        },
+        "contributor.name": {
+            "term": "Contributor.Name",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "maintainer.url": {
+            "term": "Maintainer.URL",
+            "section": "Contacts",
             "inheritsfrom": "",
             "values": {}
         },
@@ -1301,27 +996,370 @@
             "inheritsfrom": "",
             "values": {}
         },
-        "datafile.mediatype": {
-            "term": "DataFile.MediaType",
+        "contact.url": {
+            "values": {},
+            "section": "Contacts",
+            "term": "Contact.URL"
+        },
+        "resource.language": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Language"
+        },
+        "column.required": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Required"
+        },
+        "downloadpage.title": {
+            "term": "DownloadPage.Title",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         },
-        "contact.email": {
-            "term": "Contact.Email",
-            "section": "Contacts",
+        "root.column": {
+            "values": {},
+            "synonym": "Table.Column",
+            "term": "Column",
+            "section": "Schemas"
+        },
+        "supplementarydata.size": {
+            "term": "SupplementaryData.Size",
+            "section": "Resources",
+            "inheritsfrom": "",
             "values": {}
         },
-        "downloadpage.name": {
-            "term": "DownloadPage.Name",
+        "documentation.url": {
+            "term": "Documentation.Url",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "homepage.license": {
+            "term": "HomePage.License",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.description": {
+            "term": "Documentation.Description",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.language": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Language"
+        },
+        "datafile.schema": {
+            "values": {},
+            "section": "Resources",
+            "term": "DataFile.Schema"
+        },
+        "root.publisher": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Contacts",
+            "inheritsfrom": "Root.Contact",
+            "term": "Root.Publisher"
+        },
+        "table.description": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Table.Description"
+        },
+        "root.contact": {
+            "values": {},
+            "section": "Contacts",
+            "term": "Root.Contact"
+        },
+        "supplementarydata.title": {
+            "term": "SupplementaryData.Title",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "api.format": {
+            "term": "API.Format",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datadictionary.name": {
+            "term": "DataDictionary.Name",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.describedby": {
+            "term": "DataFile.DescribedBy",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.ispartof": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.IsPartOf"
+        },
+        "documentation.describedbytype": {
+            "term": "Documentation.DescribedByType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "supplementarydata.url": {
+            "term": "SupplementaryData.Url",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.api": {
+            "values": {},
+            "termvaluename": "Url",
+            "section": "Resources",
+            "inheritsfrom": "Root.Resource",
+            "term": "Root.API"
+        },
+        "resource.size": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Size"
+        },
+        "contact.email": {
+            "values": {},
+            "section": "Contacts",
+            "term": "Contact.Email"
+        },
+        "column.format": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Format"
+        },
+        "datadictionary.describedbytype": {
+            "term": "DataDictionary.DescribedByType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "analyst.email": {
+            "term": "Analyst.Email",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "datafile.license": {
+            "term": "DataFile.License",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "maintainer.email": {
+            "term": "Maintainer.Email",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.name": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Name"
+        },
+        "api.language": {
+            "term": "API.Language",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "resource.url": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.Url"
+        },
+        "api.mediatype": {
+            "term": "API.MediaType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "downloadpage.mediatype": {
+            "term": "DownloadPage.MediaType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "column.unique": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Unique"
+        },
+        "table.column": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Schemas",
+            "term": "Table.Column"
+        },
+        "documentation.conformsto": {
+            "term": "Documentation.ConformsTo",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "publisher.name": {
+            "term": "Publisher.Name",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "api.encoding": {
+            "term": "API.Encoding",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.format": {
+            "term": "Documentation.Format",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "column.datatype": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.DataType"
+        },
+        "resource.describedbytype": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.DescribedByType"
+        },
+        "homepage.describedbytype": {
+            "term": "HomePage.DescribedByType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "maintainer.name": {
+            "term": "Maintainer.Name",
+            "section": "Contacts",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.license": {
+            "term": "Documentation.License",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "supplementarydata.origin": {
+            "term": "SupplementaryData.Origin",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "column.name": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Column.Name"
+        },
+        "root.homepage": {
+            "values": {},
+            "termvaluename": "Url",
+            "section": "Resources",
+            "inheritsfrom": "Root.Resource",
+            "term": "Root.HomePage"
+        },
+        "api.conformsto": {
+            "term": "API.ConformsTo",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "table.primarykey": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Table.PrimaryKey"
+        },
+        "root.include": {
+            "values": {},
+            "section": "Root",
+            "term": "Include"
+        },
+        "datafile.name": {
+            "term": "DataFile.Name",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.wrangler": {
+            "values": {},
+            "termvaluename": "Name",
+            "section": "Contacts",
+            "inheritsfrom": "Root.Contact",
+            "term": "Root.Wrangler"
+        },
+        "api.hash": {
+            "term": "API.Hash",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "table.name": {
+            "values": {},
+            "section": "Schemas",
+            "term": "Table.Name"
+        },
+        "datadictionary.format": {
+            "term": "DataDictionary.Format",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "documentation.language": {
+            "term": "Documentation.Language",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "resource.license": {
+            "values": {},
+            "section": "Resources",
+            "term": "Resource.License"
+        },
+        "supplementarydata.mediatype": {
+            "term": "SupplementaryData.MediaType",
+            "section": "Resources",
+            "inheritsfrom": "",
+            "values": {}
+        },
+        "root.issued": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Issued"
+        },
+        "root.version": {
+            "values": {},
+            "section": "Root",
+            "term": "Root.Version"
+        },
+        "supplementarydata.language": {
+            "term": "SupplementaryData.Language",
             "section": "Resources",
             "inheritsfrom": "",
             "values": {}
         }
     },
     "sections": {
+        "declaredsections": {
+            "terms": [],
+            "args": [
+                "Arg0",
+                "Arg1",
+                "Arg2"
+            ]
+        },
         "root": {
-            "args": [],
             "terms": [
                 "Root.Title",
                 "Root.Summary",
@@ -1346,15 +1384,26 @@
                 "Root.Created",
                 "Root.Issued",
                 "Root.AccrualPeriodicity"
+            ],
+            "args": []
+        },
+        "data": {
+            "terms": [],
+            "args": [
+                "Name",
+                "Title",
+                "Description"
+            ]
+        },
+        "declaredterms": {
+            "terms": [],
+            "args": [
+                "TermValueName",
+                "ChildPropertyType",
+                "Section"
             ]
         },
         "contacts": {
-            "args": [
-                "Email",
-                "Organization",
-                "Tel",
-                "Url"
-            ],
             "terms": [
                 "Root.Contact",
                 "Contact.URL",
@@ -1390,15 +1439,29 @@
                 "Contributor.URL",
                 "Contributor.Email",
                 "Contributor.Org",
-                "Contributor.Name"
+                "Contributor.Name",
+                "Root.Analyst",
+                "Analyst.URL",
+                "Analyst.Email",
+                "Analyst.Org",
+                "Analyst.Name"
+            ],
+            "args": [
+                "Email",
+                "Organization",
+                "Tel",
+                "Url"
+            ]
+        },
+        "documentation": {
+            "terms": [],
+            "args": [
+                "Name",
+                "Title",
+                "Description"
             ]
         },
         "schemas": {
-            "args": [
-                "DataType",
-                "ValueType",
-                "Description"
-            ],
             "terms": [
                 "Root.Table",
                 "Table.Name",
@@ -1426,30 +1489,14 @@
                 "Column.Maximum",
                 "Column.Enum",
                 "Column"
+            ],
+            "args": [
+                "DataType",
+                "ValueType",
+                "Description"
             ]
         },
-        "documentation": {
-            "args": [
-                "Name",
-                "Title",
-                "Description"
-            ],
-            "terms": []
-        },
-        "declaredterms": {
-            "args": [
-                "TermValueName",
-                "ChildPropertyType",
-                "Section"
-            ],
-            "terms": []
-        },
         "resources": {
-            "args": [
-                "Name",
-                "Title",
-                "Description"
-            ],
             "terms": [
                 "Root.Resource",
                 "Resource.Url",
@@ -1589,25 +1636,15 @@
                 "DataFile.SpatialGrain",
                 "DataFile.Grain",
                 "DataFile.SourceURL"
-            ]
-        },
-        "data": {
+            ],
             "args": [
                 "Name",
                 "Title",
                 "Description"
-            ],
-            "terms": []
-        },
-        "declaredsections": {
-            "args": [
-                "Arg0",
-                "Arg1",
-                "Arg2"
-            ],
-            "terms": []
+            ]
         },
         "sources": {
+            "terms": [],
             "args": [
                 "Name",
                 "Title",
@@ -1616,8 +1653,7 @@
                 "HeaderLine",
                 "Encoding",
                 "Description"
-            ],
-            "terms": []
+            ]
         }
     }
 }
