@@ -2,9 +2,7 @@ Metatab Packages
 
 A method for linking data to metadata
 
-Eric Busboom
-
-Civic Knowledge
+Eric Busboom, Civic Knowledge
 
 eric@civicknowledge.com
 
@@ -68,7 +66,7 @@ Additional work that will result in differences:
 
 # Overview
 
-Data packaging has one overarching goal: link metadata and documentation to data and make them difficult to separate. A Data Bundle is a collection of data, documentation and metadata that describes the data, linked together in the same spreadsheet, ZIP archive or webpage. The components of a data bundle include: 
+Data packaging has one overarching goal: link metadata and documentation to data and make them difficult to separate but easy to use. A Data Bundle is a collection of data, documentation and metadata that describes the data, linked together in the same spreadsheet, ZIP archive or webpage. The components of a data bundle include: 
 
 * **Data**. The bundle format is designed for datasets can can be stored in a spreadsheet or relational database, as tabular data organized into rows and columns, in Excel or CSV format.  
 
@@ -156,9 +154,9 @@ Externally, the data in this Excel file would be referred to with: ‘http://exa
 
 **Variable**: Any characteristic or attribute that can be measured or counted. In the data, the values of a variable are stored in a column. 
 
-**Producer: ** Someone who creates data. 
+**Producer**: Someone who creates data. 
 
-**Consumer: ** Someone who uses data. 
+**Consumer**: Someone who uses data. 
 
 # Bundle Container Profiles
 
@@ -312,15 +310,15 @@ URLs that refer to data files  may have one or two fragment components, the Arch
 
 <table>
   <tr>
-    <td>http://example.come/archive.zip#file_in_zip.csv</td>
+    <td>http://example.com/archive.zip#file_in_zip.csv</td>
     <td></td>
   </tr>
   <tr>
-    <td>http://example.come/excel.xls#tab_in_xls</td>
+    <td>http://example.com/excel.xls#tab_in_xls</td>
     <td></td>
   </tr>
   <tr>
-    <td>http://example.come/archive.zip#excel.xls;tab_in_xls</td>
+    <td>http://example.com/archive.zip#excel.xls;tab_in_xls</td>
     <td></td>
   </tr>
 </table>
