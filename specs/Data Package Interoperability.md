@@ -53,16 +53,23 @@ This specification does not specify a particular metadata scheme, but does requi
 * If the metadata file is one of the recommended schemes, it must have the file name assigned to it in this specification.
 
 
+[ Maybe it should specify particular schemes. There are only a few that make sense. ]
+
 ### Recommended Schemes and File Names
 
 
+These three are the most complete, and are best designed for datasets
+
 * Tabular Data Packages: datapackage.json
-* Metatab: metadata.csv 
-* Metatab/TDP: datapackage.csv
+* Metatab: metadata.csv, metadata.json
+* POD: data.json
+
+These could be secondary. 
+
 * Dublin Core: dcmetadata.xml
 * DCAT: dcat.rdf
 * DataCite datacite.xml
-* POD: pod.json
+
 
 
 Alternate: maybe the root includes a metadata.txt file that describes the primary and secondary metadata, along with its location. 
