@@ -1,14 +1,20 @@
 from setuptools import setup
+import sys
+import os
+
+if sys.argv[-1] == 'publish':
+    os.system('python setup.py sdist upload')
+    sys.exit()
 
 setup(
-    name='metatab.declarations',
+    name='metatab_declarations',
     version='0.2',
-    package_dir={ 'metatab.declarations': 'declarations'},
-    packages=['metatab.declarations'],
-    package_data={'metatab.declarations': ['*.csv','*.json']},
-    url='',
-    license='',
+    packages=['metatab_declarations'],
+    package_data={'metatab_declarations': ['*.csv','*.json']},
+    url='https://github.com/CivicKnowledge/metatab-declarations',
+    license='BSD 2-Clause License',
     author='Eric Busboom',
     author_email='eric@busboom.org',
-    description=''
+    description='',
+    zip_safe=False
 )
