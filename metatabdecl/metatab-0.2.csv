@@ -111,7 +111,7 @@
 "DeclareTerm","Root.DataDictionary","Url","Root.Resource","Resources",,,,,,,,,,,,,,
 "DeclareTerm","Root.SupplementaryData","Url","Root.Resource","Resources",,,,,,,,,,,,,,
 "DeclareTerm","Root.Image","Url","Root.Resource","Resources",,,,,,,,,,,,,,
-"DeclareTerm","Root.Citation","Name",,"Bibliography",,,,,,,,,,,,,,
+"DeclareTerm","Root.Citation","Name","Root.Resource","Bibliography",,,,,,,,,,,,,,
 "DeclareTerm","Root.DataFile","Url","Root.Resource","Resources",,,,,,,,,,,,,,
 "DeclareTerm","DataFile.StartLine",,,,,,,,,,,,,,,,,
 "DeclareTerm","DataFile.EndLine",,,,,,,,,,,,,,,,,

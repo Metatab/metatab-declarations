@@ -7,14 +7,14 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 setup(
-    name='metatab_declarations',
+    name='metatabdecl',
     version='0.2',
-    packages=['metatab_declarations'],
-    package_data={'metatab_declarations': ['*.csv','*.json']},
+    packages=['metatabdecl'],
+    package_data={'metatabdecl': ['*.csv','*.json']},
     url='https://github.com/CivicKnowledge/metatab-declarations',
     license='BSD 2-Clause License',
     author='Eric Busboom',
     author_email='eric@busboom.org',
-    description='',
+    description='Declaration files and specifications for the Metatab package',
     zip_safe=False
 )
