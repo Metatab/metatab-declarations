@@ -112,6 +112,7 @@
 "DeclareTerm","Root.SupplementaryData","Url","Root.Resource","Resources",,,,,,,,,,,,,,
 "DeclareTerm","Root.Image","Url","Root.Resource","Resources",,,,,,,,,,,,,,
 "DeclareTerm","Root.Citation","Name","Root.Resource","Bibliography",,,,,,,,,,,,,,
+"DeclareTerm","Root.Sql","Query","Root.Resource","Resources",,,,,,,,,,,,,,
 "DeclareTerm","Root.DataFile","Url","Root.Resource","Resources",,,,,,,,,,,,,,
 "DeclareTerm","DataFile.StartLine",,,,,,,,,,,,,,,,,
 "DeclareTerm","DataFile.EndLine",,,,,,,,,,,,,,,,,
