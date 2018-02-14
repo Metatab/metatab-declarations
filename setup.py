@@ -8,7 +8,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='metatabdecl',
-    version='0.2',
+    version='1.0',
     packages=['metatabdecl'],
     package_data={'metatabdecl': ['*.csv','*.json']},
     url='https://github.com/CivicKnowledge/metatab-declarations',
