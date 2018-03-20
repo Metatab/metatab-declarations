@@ -602,8 +602,8 @@
         },
         "root.reference": {
             "termvaluename": "Url",
-            "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "inheritsfrom": "Root.Reference",
+            "section": "References",
             "term": "Root.Reference",
             "values": {}
         },
@@ -660,7 +660,7 @@
         "root.sql": {
             "termvaluename": "Query",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "References",
             "term": "Root.Sql",
             "values": {}
         },
@@ -917,7 +917,6 @@
             ],
             "terms": [
                 "Root.Resource",
-                "Root.Reference",
                 "Root.Documentation",
                 "Root.HomePage",
                 "Root.DownloadPage",
@@ -925,7 +924,6 @@
                 "Root.DataDictionary",
                 "Root.SupplementaryData",
                 "Root.Image",
-                "Root.Sql",
                 "Root.DataFile"
             ]
         },
@@ -938,7 +936,10 @@
                 "HeaderLines",
                 "Encoding"
             ],
-            "terms": []
+            "terms": [
+                "Root.Reference",
+                "Root.Sql"
+            ]
         },
         "documentation": {
             "args": [

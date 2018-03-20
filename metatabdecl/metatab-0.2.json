@@ -149,52 +149,10 @@
             "term": "Root.Grain",
             "values": {}
         },
-        "name.dataset": {
-            "section": "Root",
-            "term": "Name.Dataset",
-            "values": {}
-        },
-        "name.identifier": {
-            "section": "Root",
-            "term": "Name.Identifier",
-            "values": {}
-        },
-        "name.version": {
-            "section": "Root",
-            "term": "Name.Version",
-            "values": {}
-        },
-        "name.origin": {
+        "root.variant": {
             "termvaluename": "Label",
             "section": "Root",
-            "codename": "Code",
-            "labelname": "Label",
-            "datapackageterm": "Root.Origin",
-            "term": "Name.Origin",
-            "values": {}
-        },
-        "name.space": {
-            "termvaluename": "Label",
-            "section": "Root",
-            "codename": "Code",
-            "labelname": "Label",
-            "term": "Name.Space",
-            "values": {}
-        },
-        "name.time": {
-            "termvaluename": "Label",
-            "section": "Root",
-            "codename": "Code",
-            "labelname": "Label",
-            "term": "Name.Time",
-            "values": {}
-        },
-        "name.grain": {
-            "termvaluename": "Label",
-            "section": "Root",
-            "codename": "Code",
-            "labelname": "Label",
-            "term": "Name.Grain",
+            "term": "Root.Variant",
             "values": {}
         },
         "root.accesslevel": {
@@ -445,6 +403,38 @@
             "values": {},
             "inheritsfrom": ""
         },
+        "root.author": {
+            "termvaluename": "Name",
+            "inheritsfrom": "Root.Contact",
+            "section": "Contacts",
+            "term": "Root.Author",
+            "values": {}
+        },
+        "author.url": {
+            "section": "Contacts",
+            "datapackageterm": "Contributors.Web",
+            "term": "Author.URL",
+            "values": {},
+            "inheritsfrom": ""
+        },
+        "author.email": {
+            "section": "Contacts",
+            "term": "Author.Email",
+            "values": {},
+            "inheritsfrom": ""
+        },
+        "author.org": {
+            "section": "Contacts",
+            "term": "Author.Org",
+            "values": {},
+            "inheritsfrom": ""
+        },
+        "author.name": {
+            "section": "Contacts",
+            "term": "Author.Name",
+            "values": {},
+            "inheritsfrom": ""
+        },
         "root.analyst": {
             "termvaluename": "Name",
             "inheritsfrom": "Root.Contact",
@@ -483,211 +473,139 @@
             "values": {}
         },
         "resource.url": {
-            "section": "Resources",
             "datapackageterm": "Resources.Path",
             "term": "Resource.Url",
             "values": {}
         },
         "resource.name": {
-            "section": "Resources",
             "datapackageterm": "Resources.Name",
             "term": "Resource.Name",
             "values": {}
         },
         "resource.title": {
-            "section": "Resources",
             "datapackageterm": "Resources.Title",
             "term": "Resource.Title",
             "values": {}
         },
         "resource.description": {
-            "section": "Resources",
             "datapackageterm": "Resources.Description",
             "term": "Resource.Description",
             "values": {}
         },
         "resource.language": {
-            "section": "Resources",
             "term": "Resource.Language",
             "values": {}
         },
         "resource.encoding": {
-            "section": "Resources",
             "datapackageterm": "Resources.Encoding",
             "term": "Resource.Encoding",
             "values": {}
         },
         "resource.format": {
-            "section": "Resources",
             "datapackageterm": "Resources.Format",
             "term": "Resource.Format",
             "values": {}
         },
         "resource.mediatype": {
-            "section": "Resources",
             "datapackageterm": "Resources.MediaType",
             "term": "Resource.MediaType",
             "values": {}
         },
         "resource.size": {
-            "section": "Resources",
             "datapackageterm": "Resources.Bytes",
             "term": "Resource.Size",
             "values": {}
         },
         "resource.source": {
-            "section": "Resources",
             "datapackageterm": "Resources.Sources",
             "term": "Resource.Source",
             "values": {}
         },
         "resource.hash": {
-            "section": "Resources",
             "datapackageterm": "Resources.Hash",
             "term": "Resource.Hash",
             "values": {}
         },
         "resource.license": {
-            "section": "Resources",
             "datapackageterm": "Resources.License",
             "term": "Resource.License",
             "values": {}
         },
         "resource.origin": {
-            "section": "Resources",
             "term": "Resource.Origin",
             "values": {}
         },
         "resource.schema": {
-            "section": "Resources",
             "datapackageterm": "Resources.Schema",
             "term": "Resource.Schema",
             "values": {}
         },
         "resource.describedbytype": {
-            "section": "Resources",
             "term": "Resource.DescribedByType",
             "values": {}
         },
         "resource.conformsto": {
-            "section": "Resources",
             "term": "Resource.ConformsTo",
+            "values": {}
+        },
+        "resource.type": {
+            "term": "Resource.Type",
+            "values": {}
+        },
+        "resource.author": {
+            "term": "Resource.Author",
+            "values": {}
+        },
+        "resource.year": {
+            "term": "Resource.Year",
+            "values": {}
+        },
+        "resource.publisher": {
+            "term": "Resource.Publisher",
+            "values": {}
+        },
+        "resource.version": {
+            "term": "Resource.Version",
+            "values": {}
+        },
+        "resource.accessdate": {
+            "term": "Resource.AccessDate",
+            "values": {}
+        },
+        "resource.location": {
+            "term": "Resource.Location",
+            "values": {}
+        },
+        "resource.journal": {
+            "term": "Resource.Journal",
+            "values": {}
+        },
+        "resource.volume": {
+            "term": "Resource.Volume",
+            "values": {}
+        },
+        "resource.number": {
+            "term": "Resource.Number",
+            "values": {}
+        },
+        "resource.pages": {
+            "term": "Resource.Pages",
+            "values": {}
+        },
+        "resource.doi": {
+            "term": "Resource.Doi",
+            "values": {}
+        },
+        "resource.issn": {
+            "term": "Resource.Issn",
             "values": {}
         },
         "root.reference": {
             "termvaluename": "Url",
-            "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "inheritsfrom": "Root.Reference",
+            "section": "References",
             "term": "Root.Reference",
             "values": {}
-        },
-        "reference.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "Reference.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "Reference.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "Reference.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "Reference.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.language": {
-            "section": "Resources",
-            "term": "Reference.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "Reference.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "Reference.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "Reference.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "Reference.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "Reference.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "Reference.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "Reference.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.origin": {
-            "section": "Resources",
-            "term": "Reference.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "Reference.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.describedbytype": {
-            "section": "Resources",
-            "term": "Reference.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "reference.conformsto": {
-            "section": "Resources",
-            "term": "Reference.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
         },
         "root.documentation": {
             "termvaluename": "Url",
@@ -695,114 +613,6 @@
             "section": "Resources",
             "term": "Root.Documentation",
             "values": {}
-        },
-        "documentation.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "Documentation.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "Documentation.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "Documentation.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "Documentation.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.language": {
-            "section": "Resources",
-            "term": "Documentation.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "Documentation.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "Documentation.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "Documentation.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "Documentation.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "Documentation.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "Documentation.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "Documentation.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.origin": {
-            "section": "Resources",
-            "term": "Documentation.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "Documentation.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.describedbytype": {
-            "section": "Resources",
-            "term": "Documentation.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "documentation.conformsto": {
-            "section": "Resources",
-            "term": "Documentation.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
         },
         "root.homepage": {
             "termvaluename": "Url",
@@ -812,228 +622,12 @@
             "term": "Root.HomePage",
             "values": {}
         },
-        "homepage.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "HomePage.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "HomePage.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "HomePage.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "HomePage.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.language": {
-            "section": "Resources",
-            "term": "HomePage.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "HomePage.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "HomePage.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "HomePage.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "HomePage.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "HomePage.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "HomePage.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "HomePage.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.origin": {
-            "section": "Resources",
-            "term": "HomePage.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "HomePage.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.describedbytype": {
-            "section": "Resources",
-            "term": "HomePage.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "homepage.conformsto": {
-            "section": "Resources",
-            "term": "HomePage.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
-        },
         "root.downloadpage": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
             "section": "Resources",
             "term": "Root.DownloadPage",
             "values": {}
-        },
-        "downloadpage.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "DownloadPage.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "DownloadPage.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "DownloadPage.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "DownloadPage.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.language": {
-            "section": "Resources",
-            "term": "DownloadPage.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "DownloadPage.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "DownloadPage.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "DownloadPage.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "DownloadPage.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "DownloadPage.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "DownloadPage.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "DownloadPage.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.origin": {
-            "section": "Resources",
-            "term": "DownloadPage.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "DownloadPage.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.describedbytype": {
-            "section": "Resources",
-            "term": "DownloadPage.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "downloadpage.conformsto": {
-            "section": "Resources",
-            "term": "DownloadPage.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
         },
         "root.api": {
             "termvaluename": "Url",
@@ -1042,339 +636,12 @@
             "term": "Root.API",
             "values": {}
         },
-        "api.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "API.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "API.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "API.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "API.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.language": {
-            "section": "Resources",
-            "term": "API.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "API.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "API.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "API.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "API.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "API.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "API.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "API.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.origin": {
-            "section": "Resources",
-            "term": "API.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "API.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.describedbytype": {
-            "section": "Resources",
-            "term": "API.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "api.conformsto": {
-            "section": "Resources",
-            "term": "API.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "root.datafile": {
-            "termvaluename": "Url",
-            "inheritsfrom": "Root.Resource",
-            "section": "Resources",
-            "term": "Root.DataFile",
-            "values": {}
-        },
-        "datafile.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "DataFile.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "DataFile.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "DataFile.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "DataFile.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.language": {
-            "section": "Resources",
-            "term": "DataFile.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "DataFile.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "DataFile.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "DataFile.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "DataFile.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.source": {
-            "section": "Resources",
-            "term": "DataFile.Source",
-            "values": {}
-        },
-        "datafile.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "DataFile.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "DataFile.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.origin": {
-            "section": "Resources",
-            "term": "DataFile.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.schema": {
-            "section": "Resources",
-            "term": "DataFile.Schema",
-            "values": {}
-        },
-        "datafile.describedbytype": {
-            "section": "Resources",
-            "term": "DataFile.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.conformsto": {
-            "section": "Resources",
-            "term": "DataFile.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
-        },
         "root.datadictionary": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
             "section": "Resources",
             "term": "Root.DataDictionary",
             "values": {}
-        },
-        "datadictionary.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "DataDictionary.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "DataDictionary.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "DataDictionary.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "DataDictionary.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.language": {
-            "section": "Resources",
-            "term": "DataDictionary.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "DataDictionary.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "DataDictionary.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "DataDictionary.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "DataDictionary.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "DataDictionary.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "DataDictionary.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "DataDictionary.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.origin": {
-            "section": "Resources",
-            "term": "DataDictionary.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "DataDictionary.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.describedbytype": {
-            "section": "Resources",
-            "term": "DataDictionary.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datadictionary.conformsto": {
-            "section": "Resources",
-            "term": "DataDictionary.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
         },
         "root.supplementarydata": {
             "termvaluename": "Url",
@@ -1383,450 +650,210 @@
             "term": "Root.SupplementaryData",
             "values": {}
         },
-        "supplementarydata.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "SupplementaryData.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "SupplementaryData.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "SupplementaryData.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "SupplementaryData.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.language": {
-            "section": "Resources",
-            "term": "SupplementaryData.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "SupplementaryData.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "SupplementaryData.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "SupplementaryData.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "SupplementaryData.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "SupplementaryData.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "SupplementaryData.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "SupplementaryData.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.origin": {
-            "section": "Resources",
-            "term": "SupplementaryData.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "SupplementaryData.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.describedbytype": {
-            "section": "Resources",
-            "term": "SupplementaryData.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "supplementarydata.conformsto": {
-            "section": "Resources",
-            "term": "SupplementaryData.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.url": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Path",
-            "term": "Image.Url",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.name": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Name",
-            "term": "Image.Name",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.title": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Title",
-            "term": "Image.Title",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.description": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Description",
-            "term": "Image.Description",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.language": {
-            "section": "Resources",
-            "term": "Image.Language",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.encoding": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Encoding",
-            "term": "Image.Encoding",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.format": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Format",
-            "term": "Image.Format",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.mediatype": {
-            "section": "Resources",
-            "datapackageterm": "Resources.MediaType",
-            "term": "Image.MediaType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.size": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Bytes",
-            "term": "Image.Size",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.source": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Sources",
-            "term": "Image.Source",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.hash": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Hash",
-            "term": "Image.Hash",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.license": {
-            "section": "Resources",
-            "datapackageterm": "Resources.License",
-            "term": "Image.License",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.origin": {
-            "section": "Resources",
-            "term": "Image.Origin",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.schema": {
-            "section": "Resources",
-            "datapackageterm": "Resources.Schema",
-            "term": "Image.Schema",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.describedbytype": {
-            "section": "Resources",
-            "term": "Image.DescribedByType",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "image.conformsto": {
-            "section": "Resources",
-            "term": "Image.ConformsTo",
-            "values": {},
-            "inheritsfrom": ""
-        },
-        "datafile.startline": {
-            "section": "Resources",
-            "term": "DataFile.StartLine",
-            "values": {}
-        },
-        "datafile.endline": {
-            "section": "Resources",
-            "term": "DataFile.EndLine",
-            "values": {}
-        },
-        "datafile.headerlines": {
-            "section": "Resources",
-            "term": "DataFile.HeaderLines",
-            "values": {}
-        },
-        "datafile.commentlines": {
-            "section": "Resources",
-            "term": "DataFile.CommentLines",
-            "values": {}
-        },
-        "datafile.time": {
-            "section": "Resources",
-            "term": "DataFile.Time",
-            "values": {}
-        },
-        "datafile.space": {
-            "section": "Resources",
-            "term": "DataFile.Space",
-            "values": {}
-        },
-        "datafile.grain": {
-            "section": "Resources",
-            "term": "DataFile.Grain",
-            "values": {}
-        },
         "root.citation": {
             "termvaluename": "Name",
+            "inheritsfrom": "Root.Resource",
             "section": "Bibliography",
             "term": "Root.Citation",
             "values": {}
         },
-        "citation.name": {
-            "section": "Bibliography",
-            "term": "Citation.Name",
+        "root.sql": {
+            "termvaluename": "Query",
+            "inheritsfrom": "Root.Resource",
+            "section": "References",
+            "term": "Root.Sql",
             "values": {}
         },
-        "citation.author": {
-            "section": "Bibliography",
-            "term": "Citation.Author",
+        "root.datafile": {
+            "termvaluename": "Url",
+            "inheritsfrom": "Root.Resource",
+            "section": "Resources",
+            "term": "Root.DataFile",
             "values": {}
         },
-        "citation.title": {
-            "section": "Bibliography",
-            "term": "Citation.Title",
+        "datafile.startline": {
+            "term": "DataFile.StartLine",
             "values": {}
         },
-        "citation.publicationyear": {
-            "section": "Bibliography",
-            "term": "Citation.PublicationYear",
+        "datafile.endline": {
+            "term": "DataFile.EndLine",
             "values": {}
         },
-        "citation.publisher": {
-            "section": "Bibliography",
-            "term": "Citation.Publisher",
+        "datafile.headerlines": {
+            "term": "DataFile.HeaderLines",
             "values": {}
         },
-        "citation.version": {
-            "section": "Bibliography",
-            "term": "Citation.Version",
+        "datafile.commentlines": {
+            "term": "DataFile.CommentLines",
             "values": {}
         },
-        "citation.accessdate": {
-            "section": "Bibliography",
-            "term": "Citation.AccessDate",
+        "datafile.schema": {
+            "term": "DataFile.Schema",
             "values": {}
         },
-        "citation.location": {
-            "section": "Bibliography",
-            "term": "Citation.Location",
+        "datafile.time": {
+            "term": "DataFile.Time",
+            "values": {}
+        },
+        "datafile.space": {
+            "term": "DataFile.Space",
+            "values": {}
+        },
+        "datafile.grain": {
+            "term": "DataFile.Grain",
+            "values": {}
+        },
+        "datafile.source": {
+            "term": "DataFile.Source",
             "values": {}
         },
         "root.table": {
             "termvaluename": "Name",
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Root.Table",
             "values": {}
         },
         "table.name": {
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Table.Name",
             "values": {}
         },
         "table.title": {
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Table.Title",
             "values": {}
         },
         "table.description": {
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Table.Description",
             "values": {}
         },
         "table.datafile": {
             "inheritsfrom": "Root.Datafile",
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Table.Datafile",
             "values": {}
         },
         "table.entitytype": {
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Table.EntityType",
             "values": {}
         },
         "table.primarykey": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Schemas.PrimaryKey",
             "term": "Table.PrimaryKey",
             "values": {}
         },
         "table.foreignkey": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Schemas.ForeignKey",
             "term": "Table.ForeignKey",
             "values": {}
         },
         "table.column": {
             "termvaluename": "Name",
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Table.Column",
             "values": {}
         },
         "column.name": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Fields.Name",
             "term": "Column.Name",
             "values": {}
         },
         "column.title": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Fields.Title",
             "term": "Column.Title",
             "values": {}
         },
         "column.description": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Fields.Description",
             "term": "Column.Description",
             "values": {}
         },
         "column.datatype": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Fields.DataType",
             "term": "Column.DataType",
             "values": {}
         },
         "column.valuetype": {
-            "section": "Schemas",
+            "section": "Schema",
             "term": "Column.ValueType",
             "values": {}
         },
         "column.format": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Fields.Format",
             "term": "Column.Format",
             "values": {}
         },
         "column.missingvalue": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Fields.MissingValue",
             "term": "Column.MissingValue",
             "values": {}
         },
         "column.constraint": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Fields.Constraint",
             "term": "Column.Constraint",
             "values": {}
         },
         "column.required": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.Required",
             "term": "Column.Required",
             "values": {}
         },
         "column.minlength": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.MinLength",
             "term": "Column.MinLength",
             "values": {}
         },
         "column.maxlength": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.MaxLength",
             "term": "Column.MaxLength",
             "values": {}
         },
         "column.unique": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.Unique",
             "term": "Column.Unique",
             "values": {}
         },
         "column.pattern": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.Pattern",
             "term": "Column.Pattern",
             "values": {}
         },
         "column.minimum": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.Minimum",
             "term": "Column.Minimum",
             "values": {}
         },
         "column.maximum": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.Maximum",
             "term": "Column.Maximum",
             "values": {}
         },
         "column.enum": {
-            "section": "Schemas",
+            "section": "Schema",
             "datapackageterm": "Constraints.Enum",
             "term": "Column.Enum",
             "values": {}
         },
         "root.column": {
-            "section": "Schemas",
+            "section": "Schema",
             "synonym": "Table.Column",
             "term": "Column",
             "values": {}
@@ -1853,13 +880,7 @@
                 "Root.Space",
                 "Root.Time",
                 "Root.Grain",
-                "Name.Dataset",
-                "Name.Identifier",
-                "Name.Version",
-                "Name.Origin",
-                "Name.Space",
-                "Name.Time",
-                "Name.Grain",
+                "Root.Variant",
                 "Root.AccessLevel",
                 "Root.License",
                 "Root.Rights",
@@ -1896,182 +917,14 @@
             ],
             "terms": [
                 "Root.Resource",
-                "Resource.Url",
-                "Resource.Name",
-                "Resource.Title",
-                "Resource.Description",
-                "Resource.Language",
-                "Resource.Encoding",
-                "Resource.Format",
-                "Resource.MediaType",
-                "Resource.Size",
-                "Resource.Source",
-                "Resource.Hash",
-                "Resource.License",
-                "Resource.Origin",
-                "Resource.Schema",
-                "Resource.DescribedByType",
-                "Resource.ConformsTo",
-                "Root.Reference",
-                "Reference.Url",
-                "Reference.Name",
-                "Reference.Title",
-                "Reference.Description",
-                "Reference.Language",
-                "Reference.Encoding",
-                "Reference.Format",
-                "Reference.MediaType",
-                "Reference.Size",
-                "Reference.Source",
-                "Reference.Hash",
-                "Reference.License",
-                "Reference.Origin",
-                "Reference.Schema",
-                "Reference.DescribedByType",
-                "Reference.ConformsTo",
                 "Root.Documentation",
-                "Documentation.Url",
-                "Documentation.Name",
-                "Documentation.Title",
-                "Documentation.Description",
-                "Documentation.Language",
-                "Documentation.Encoding",
-                "Documentation.Format",
-                "Documentation.MediaType",
-                "Documentation.Size",
-                "Documentation.Source",
-                "Documentation.Hash",
-                "Documentation.License",
-                "Documentation.Origin",
-                "Documentation.Schema",
-                "Documentation.DescribedByType",
-                "Documentation.ConformsTo",
                 "Root.HomePage",
-                "HomePage.Url",
-                "HomePage.Name",
-                "HomePage.Title",
-                "HomePage.Description",
-                "HomePage.Language",
-                "HomePage.Encoding",
-                "HomePage.Format",
-                "HomePage.MediaType",
-                "HomePage.Size",
-                "HomePage.Source",
-                "HomePage.Hash",
-                "HomePage.License",
-                "HomePage.Origin",
-                "HomePage.Schema",
-                "HomePage.DescribedByType",
-                "HomePage.ConformsTo",
                 "Root.DownloadPage",
-                "DownloadPage.Url",
-                "DownloadPage.Name",
-                "DownloadPage.Title",
-                "DownloadPage.Description",
-                "DownloadPage.Language",
-                "DownloadPage.Encoding",
-                "DownloadPage.Format",
-                "DownloadPage.MediaType",
-                "DownloadPage.Size",
-                "DownloadPage.Source",
-                "DownloadPage.Hash",
-                "DownloadPage.License",
-                "DownloadPage.Origin",
-                "DownloadPage.Schema",
-                "DownloadPage.DescribedByType",
-                "DownloadPage.ConformsTo",
                 "Root.API",
-                "API.Url",
-                "API.Name",
-                "API.Title",
-                "API.Description",
-                "API.Language",
-                "API.Encoding",
-                "API.Format",
-                "API.MediaType",
-                "API.Size",
-                "API.Source",
-                "API.Hash",
-                "API.License",
-                "API.Origin",
-                "API.Schema",
-                "API.DescribedByType",
-                "API.ConformsTo",
-                "Root.DataFile",
-                "DataFile.Url",
-                "DataFile.Name",
-                "DataFile.Title",
-                "DataFile.Description",
-                "DataFile.Language",
-                "DataFile.Encoding",
-                "DataFile.Format",
-                "DataFile.MediaType",
-                "DataFile.Size",
-                "DataFile.Source",
-                "DataFile.Hash",
-                "DataFile.License",
-                "DataFile.Origin",
-                "DataFile.Schema",
-                "DataFile.DescribedByType",
-                "DataFile.ConformsTo",
                 "Root.DataDictionary",
-                "DataDictionary.Url",
-                "DataDictionary.Name",
-                "DataDictionary.Title",
-                "DataDictionary.Description",
-                "DataDictionary.Language",
-                "DataDictionary.Encoding",
-                "DataDictionary.Format",
-                "DataDictionary.MediaType",
-                "DataDictionary.Size",
-                "DataDictionary.Source",
-                "DataDictionary.Hash",
-                "DataDictionary.License",
-                "DataDictionary.Origin",
-                "DataDictionary.Schema",
-                "DataDictionary.DescribedByType",
-                "DataDictionary.ConformsTo",
                 "Root.SupplementaryData",
-                "SupplementaryData.Url",
-                "SupplementaryData.Name",
-                "SupplementaryData.Title",
-                "SupplementaryData.Description",
-                "SupplementaryData.Language",
-                "SupplementaryData.Encoding",
-                "SupplementaryData.Format",
-                "SupplementaryData.MediaType",
-                "SupplementaryData.Size",
-                "SupplementaryData.Source",
-                "SupplementaryData.Hash",
-                "SupplementaryData.License",
-                "SupplementaryData.Origin",
-                "SupplementaryData.Schema",
-                "SupplementaryData.DescribedByType",
-                "SupplementaryData.ConformsTo",
                 "Root.Image",
-                "Image.Url",
-                "Image.Name",
-                "Image.Title",
-                "Image.Description",
-                "Image.Language",
-                "Image.Encoding",
-                "Image.Format",
-                "Image.MediaType",
-                "Image.Size",
-                "Image.Source",
-                "Image.Hash",
-                "Image.License",
-                "Image.Origin",
-                "Image.Schema",
-                "Image.DescribedByType",
-                "Image.ConformsTo",
-                "DataFile.StartLine",
-                "DataFile.EndLine",
-                "DataFile.HeaderLines",
-                "DataFile.CommentLines",
-                "DataFile.Time",
-                "DataFile.Space",
-                "DataFile.Grain"
+                "Root.DataFile"
             ]
         },
         "references": {
@@ -2083,7 +936,10 @@
                 "HeaderLines",
                 "Encoding"
             ],
-            "terms": []
+            "terms": [
+                "Root.Reference",
+                "Root.Sql"
+            ]
         },
         "documentation": {
             "args": [
@@ -2144,6 +1000,11 @@
                 "Contributor.Email",
                 "Contributor.Org",
                 "Contributor.Name",
+                "Root.Author",
+                "Author.URL",
+                "Author.Email",
+                "Author.Org",
+                "Author.Name",
                 "Root.Analyst",
                 "Analyst.URL",
                 "Analyst.Email",
@@ -2151,10 +1012,10 @@
                 "Analyst.Name"
             ]
         },
-        "schemas": {
+        "schema": {
             "args": [
+                "AltName",
                 "DataType",
-                "ValueType",
                 "Description"
             ],
             "terms": [
@@ -2192,22 +1053,22 @@
                 "Type",
                 "Author",
                 "Title",
-                "PublicationYear",
+                "Year",
+                "Month",
                 "Publisher",
+                "Journal",
                 "Version",
+                "Volume",
+                "Number",
+                "Pages",
                 "AccessDate",
-                "Location"
+                "Location",
+                "Url",
+                "Doi",
+                "Issn"
             ],
             "terms": [
-                "Root.Citation",
-                "Citation.Name",
-                "Citation.Author",
-                "Citation.Title",
-                "Citation.PublicationYear",
-                "Citation.Publisher",
-                "Citation.Version",
-                "Citation.AccessDate",
-                "Citation.Location"
+                "Root.Citation"
             ]
         }
     }
