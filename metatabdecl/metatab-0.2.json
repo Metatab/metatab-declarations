@@ -602,7 +602,7 @@
         },
         "root.reference": {
             "termvaluename": "Url",
-            "inheritsfrom": "Root.Reference",
+            "inheritsfrom": "Root.Resource",
             "section": "References",
             "term": "Root.Reference",
             "values": {}
@@ -662,6 +662,13 @@
             "inheritsfrom": "Root.Resource",
             "section": "References",
             "term": "Root.Sql",
+            "values": {}
+        },
+        "root.dsn": {
+            "termvaluename": "Url",
+            "inheritsfrom": "Root.Resource",
+            "section": "References",
+            "term": "Root.Dsn",
             "values": {}
         },
         "root.datafile": {
@@ -938,7 +945,8 @@
             ],
             "terms": [
                 "Root.Reference",
-                "Root.Sql"
+                "Root.Sql",
+                "Root.Dsn"
             ]
         },
         "documentation": {
