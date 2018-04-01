@@ -59,6 +59,7 @@
         "root.description": {
             "section": "Root",
             "datapackageterm": "Root.Description",
+            "options": "wrap",
             "term": "Root.Description",
             "values": {}
         },
