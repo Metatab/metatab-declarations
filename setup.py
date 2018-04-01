@@ -11,7 +11,7 @@ setup(
     version='1.1',
     packages=['metatabdecl'],
     package_data={'metatabdecl': ['*.csv','*.json']},
-    url='https://github.com/CivicKnowledge/metatab-declarations',
+    url='https://github.com/Metatab/metatab-declarations',
     license='BSD 2-Clause License',
     author='Eric Busboom',
     author_email='eric@busboom.org',
