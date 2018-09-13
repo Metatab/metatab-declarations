@@ -48,11 +48,13 @@
         "root.title": {
             "section": "Root",
             "datapackageterm": "Root.TItle",
+            "childpropertytype": "sconcat",
             "term": "Root.Title",
             "values": {}
         },
         "root.summary": {
             "section": "Root",
+            "childpropertytype": "sconcat",
             "term": "Root.Summary",
             "values": {}
         },
@@ -60,6 +62,7 @@
             "section": "Root",
             "datapackageterm": "Root.Description",
             "options": "wrap",
+            "childpropertytype": "sconcat",
             "term": "Root.Description",
             "values": {}
         },
@@ -77,7 +80,8 @@
         "root.image": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "Documentation",
+            "childpropertytype": "sequence",
             "term": "Root.Image",
             "values": {}
         },
@@ -100,22 +104,26 @@
         "root.name": {
             "section": "Root",
             "datapackageterm": "Root.Name",
+            "childpropertytype": "scalar",
             "term": "Root.Name",
             "values": {}
         },
         "root.dataset": {
             "section": "Root",
+            "childpropertytype": "scalar",
             "term": "Root.Dataset",
             "values": {}
         },
         "root.identifier": {
             "section": "Root",
+            "childpropertytype": "scalar",
             "term": "Root.Identifier",
             "values": {}
         },
         "root.version": {
             "section": "Root",
             "datapackageterm": "Root.Version",
+            "childpropertytype": "scalar",
             "term": "Root.Version",
             "values": {}
         },
@@ -123,6 +131,7 @@
             "termvaluename": "Name",
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Root.Origin",
             "values": {}
         },
@@ -131,6 +140,7 @@
             "section": "Root",
             "codename": "Code",
             "labelname": "Label",
+            "childpropertytype": "scalar",
             "term": "Root.Space",
             "values": {}
         },
@@ -139,6 +149,7 @@
             "section": "Root",
             "codename": "Code",
             "labelname": "Label",
+            "childpropertytype": "scalar",
             "term": "Root.Time",
             "values": {}
         },
@@ -147,12 +158,14 @@
             "section": "Root",
             "codename": "Code",
             "labelname": "Label",
+            "childpropertytype": "scalar",
             "term": "Root.Grain",
             "values": {}
         },
         "root.variant": {
             "termvaluename": "Label",
             "section": "Root",
+            "childpropertytype": "scalar",
             "term": "Root.Variant",
             "values": {}
         },
@@ -199,21 +212,25 @@
         "contact.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Contact.URL",
             "values": {}
         },
         "contact.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Contact.Email",
             "values": {}
         },
         "contact.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Contact.Org",
             "values": {}
         },
         "contact.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Contact.Name",
             "values": {}
         },
@@ -221,30 +238,35 @@
             "termvaluename": "Name",
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
+            "childpropertytype": "sequence",
             "term": "Root.Publisher",
             "values": {}
         },
         "publisher.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Publisher.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "publisher.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Publisher.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "publisher.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Publisher.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "publisher.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Publisher.Name",
             "values": {},
             "inheritsfrom": ""
@@ -253,30 +275,35 @@
             "termvaluename": "Name",
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
+            "childpropertytype": "sequence",
             "term": "Root.Wrangler",
             "values": {}
         },
         "wrangler.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Wrangler.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "wrangler.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Wrangler.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "wrangler.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Wrangler.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "wrangler.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Wrangler.Name",
             "values": {},
             "inheritsfrom": ""
@@ -286,30 +313,35 @@
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
             "datapackageterm": "Root.Author",
+            "childpropertytype": "sequence",
             "term": "Root.Creator",
             "values": {}
         },
         "creator.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Creator.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "creator.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Creator.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "creator.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Creator.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "creator.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Creator.Name",
             "values": {},
             "inheritsfrom": ""
@@ -317,24 +349,28 @@
         "origin.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Origin.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "origin.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Origin.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "origin.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Origin.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "origin.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Origin.Name",
             "values": {},
             "inheritsfrom": ""
@@ -343,30 +379,35 @@
             "termvaluename": "Name",
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
+            "childpropertytype": "sequence",
             "term": "Root.Maintainer",
             "values": {}
         },
         "maintainer.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Maintainer.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "maintainer.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Maintainer.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "maintainer.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Maintainer.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "maintainer.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Maintainer.Name",
             "values": {},
             "inheritsfrom": ""
@@ -376,30 +417,35 @@
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
             "datapackageterm": "Root.Contributor",
+            "childpropertytype": "sequence",
             "term": "Root.Contributor",
             "values": {}
         },
         "contributor.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Contributor.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "contributor.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Contributor.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "contributor.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Contributor.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "contributor.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Contributor.Name",
             "values": {},
             "inheritsfrom": ""
@@ -408,30 +454,35 @@
             "termvaluename": "Name",
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
+            "childpropertytype": "sequence",
             "term": "Root.Author",
             "values": {}
         },
         "author.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Author.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "author.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Author.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "author.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Author.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "author.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Author.Name",
             "values": {},
             "inheritsfrom": ""
@@ -440,36 +491,42 @@
             "termvaluename": "Name",
             "inheritsfrom": "Root.Contact",
             "section": "Contacts",
+            "childpropertytype": "sequence",
             "term": "Root.Analyst",
             "values": {}
         },
         "analyst.url": {
             "section": "Contacts",
             "datapackageterm": "Contributors.Web",
+            "childpropertytype": "scalar",
             "term": "Analyst.URL",
             "values": {},
             "inheritsfrom": ""
         },
         "analyst.email": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Analyst.Email",
             "values": {},
             "inheritsfrom": ""
         },
         "analyst.org": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Analyst.Org",
             "values": {},
             "inheritsfrom": ""
         },
         "analyst.name": {
             "section": "Contacts",
+            "childpropertytype": "scalar",
             "term": "Analyst.Name",
             "values": {},
             "inheritsfrom": ""
         },
         "root.resource": {
             "section": "Resources",
+            "childpropertytype": "sequence",
             "term": "Root.Resource",
             "values": {}
         },
@@ -611,44 +668,54 @@
         "root.documentation": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "Documentation",
+            "childpropertytype": "sequence",
             "term": "Root.Documentation",
             "values": {}
         },
         "root.homepage": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "Documentation",
             "datapackageterm": "Root.HomePage",
+            "childpropertytype": "sequence",
             "term": "Root.HomePage",
             "values": {}
         },
         "root.downloadpage": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "Documentation",
+            "childpropertytype": "sequence",
             "term": "Root.DownloadPage",
             "values": {}
         },
         "root.api": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "Documentation",
             "term": "Root.API",
             "values": {}
         },
         "root.datadictionary": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "Documentation",
             "term": "Root.DataDictionary",
             "values": {}
         },
         "root.supplementarydata": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
-            "section": "Resources",
+            "section": "Documentation",
             "term": "Root.SupplementaryData",
+            "values": {}
+        },
+        "root.note": {
+            "termvaluename": "Term",
+            "section": "Documentation",
+            "childpropertytype": "sequence",
+            "term": "Root.Note",
             "values": {}
         },
         "root.citation": {
@@ -676,6 +743,7 @@
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
             "section": "Resources",
+            "childpropertytype": "sequence",
             "term": "Root.DataFile",
             "values": {}
         },
@@ -718,27 +786,32 @@
         "root.table": {
             "termvaluename": "Name",
             "section": "Schema",
+            "childpropertytype": "sequence",
             "term": "Root.Table",
             "values": {}
         },
         "table.name": {
             "section": "Schema",
+            "childpropertytype": "scalar",
             "term": "Table.Name",
             "values": {}
         },
         "table.title": {
             "section": "Schema",
+            "childpropertytype": "scalar",
             "term": "Table.Title",
             "values": {}
         },
         "table.description": {
             "section": "Schema",
+            "childpropertytype": "scalar",
             "term": "Table.Description",
             "values": {}
         },
         "table.datafile": {
             "inheritsfrom": "Root.Datafile",
             "section": "Schema",
+            "childpropertytype": "scalar",
             "term": "Table.Datafile",
             "values": {}
         },
@@ -762,6 +835,7 @@
         "table.column": {
             "termvaluename": "Name",
             "section": "Schema",
+            "childpropertytype": "sequence",
             "term": "Table.Column",
             "values": {}
         },
@@ -925,13 +999,6 @@
             ],
             "terms": [
                 "Root.Resource",
-                "Root.Documentation",
-                "Root.HomePage",
-                "Root.DownloadPage",
-                "Root.API",
-                "Root.DataDictionary",
-                "Root.SupplementaryData",
-                "Root.Image",
                 "Root.DataFile"
             ]
         },
@@ -956,7 +1023,16 @@
                 "Title",
                 "Description"
             ],
-            "terms": []
+            "terms": [
+                "Root.Documentation",
+                "Root.HomePage",
+                "Root.DownloadPage",
+                "Root.API",
+                "Root.DataDictionary",
+                "Root.SupplementaryData",
+                "Root.Image",
+                "Root.Note"
+            ]
         },
         "data": {
             "args": [
