@@ -8,7 +8,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='metatabdecl',
-    version='1.3',
+    version='1.4',
     packages=['metatabdecl'],
     package_data={'metatabdecl': ['*.csv','*.json']},
     url='https://github.com/Metatab/metatab-declarations',
