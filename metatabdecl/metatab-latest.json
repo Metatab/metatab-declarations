@@ -662,6 +662,7 @@
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
             "section": "References",
+            "childpropertytype": "sequence",
             "term": "Root.Reference",
             "values": {}
         },
@@ -712,7 +713,7 @@
             "values": {}
         },
         "root.note": {
-            "termvaluename": "Term",
+            "termvaluename": "Text",
             "section": "Documentation",
             "childpropertytype": "sequence",
             "term": "Root.Note",
