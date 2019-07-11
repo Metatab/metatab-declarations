@@ -101,6 +101,16 @@
             "term": "Root.IsPartOf",
             "values": {}
         },
+        "root.temporalcoverage": {
+            "section": "Root",
+            "term": "Root.TemporalCoverage",
+            "values": {}
+        },
+        "root.spatialcoverage": {
+            "section": "Root",
+            "term": "Root.SpatialCoverage",
+            "values": {}
+        },
         "root.name": {
             "section": "Root",
             "datapackageterm": "Root.Name",
@@ -165,6 +175,7 @@
         "root.variant": {
             "termvaluename": "Label",
             "section": "Root",
+            "labelname": "Label",
             "childpropertytype": "scalar",
             "term": "Root.Variant",
             "values": {}
@@ -683,6 +694,14 @@
             "term": "Root.HomePage",
             "values": {}
         },
+        "root.webpage": {
+            "termvaluename": "Url",
+            "inheritsfrom": "Root.Resource",
+            "section": "Documentation",
+            "childpropertytype": "sequence",
+            "term": "Root.WebPage",
+            "values": {}
+        },
         "root.downloadpage": {
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
@@ -695,6 +714,7 @@
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
             "section": "Documentation",
+            "childpropertytype": "sequence",
             "term": "Root.API",
             "values": {}
         },
@@ -702,6 +722,7 @@
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
             "section": "Documentation",
+            "childpropertytype": "sequence",
             "term": "Root.DataDictionary",
             "values": {}
         },
@@ -709,6 +730,7 @@
             "termvaluename": "Url",
             "inheritsfrom": "Root.Resource",
             "section": "Documentation",
+            "childpropertytype": "sequence",
             "term": "Root.SupplementaryData",
             "values": {}
         },
@@ -955,6 +977,8 @@
                 "Root.Language",
                 "Root.References",
                 "Root.IsPartOf",
+                "Root.TemporalCoverage",
+                "Root.SpatialCoverage",
                 "Root.Name",
                 "Root.Dataset",
                 "Root.Identifier",
@@ -1027,6 +1051,7 @@
             "terms": [
                 "Root.Documentation",
                 "Root.HomePage",
+                "Root.WebPage",
                 "Root.DownloadPage",
                 "Root.API",
                 "Root.DataDictionary",
